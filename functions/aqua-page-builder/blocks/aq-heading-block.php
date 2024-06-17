@@ -2,6 +2,8 @@
 /** Heading text block **/
 class AQ_Heading_Block extends AQ_Block {
 
+	public $block_id;
+
 	public $name;
 	
 	//set and create block

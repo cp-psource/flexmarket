@@ -6,6 +6,8 @@
 **/
 class AQ_Separator_Block extends AQ_Block {
 
+	public $block_id;
+
 	public $name;
 	
 	//set and create block

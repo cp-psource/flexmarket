@@ -2,6 +2,7 @@
 /** Button block **/
 class AQ_Button_Block extends AQ_Block {
 
+	public $block_id;
 	public $name;
 	
 	//set and create block
