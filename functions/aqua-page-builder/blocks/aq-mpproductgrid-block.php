@@ -1,6 +1,8 @@
 <?php
 /** [MarketPress] Product Grid block **/
 class AQ_MP_Product_Grid_Block extends AQ_Block {
+
+	public $name;
 	
 	//set and create block
 	function __construct() {

@@ -1,6 +1,8 @@
 <?php
 /** Features block **/
 class AQ_Features_Block extends AQ_Block {
+
+	public $name;
 	
 	//set and create block
 	function __construct() {

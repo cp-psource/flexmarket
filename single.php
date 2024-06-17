@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-
-<?php 
-	$btnclass = mpt_load_mp_btn_color();
-	$iconclass = mpt_load_whiteicon_in_btn();
+ 
+<?php
+$btnclass = mpt_load_mp_btn_color();
+$iconclass = mpt_load_whiteicon_in_btn();
 ?>
 
 	<!-- Post -->

@@ -141,7 +141,7 @@
 		add_image_size( 'tb-860', 860, 300, true );
 	}
 
-	// set excerpt lenght to custom character length
+	// set excerpt length to custom character length
 	function the_excerpt_max_charlength($charlength) {
 		$excerpt = get_the_excerpt();
 		$charlength++;
@@ -160,7 +160,6 @@
 			echo $excerpt;
 		}
 	}
-		
 
  	// Initialize the metabox class.
 	add_action( 'init', 'cmb_initialize_cmb_meta_boxes', 9999 );
@@ -198,7 +197,7 @@
 		// if 'enable dynamic grid' option is selected
 		if (get_option('mpt_mpdg_enable_dg') == 'true') {
 
-			// remove exisitng action hooks
+			// remove existing action hooks
 			remove_action('flexmarket_product_listing_page' , 'flexmarket_list_products' , 10 , 2);
 			remove_action('flexmarket_category_page' , 'flexmarket_list_products' , 10 , 2);
 			remove_action('flexmarket_tag_page' , 'flexmarket_list_products' , 10 , 2);
@@ -342,3 +341,4 @@
 		}
 
 	}
+

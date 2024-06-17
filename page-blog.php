@@ -1,9 +1,10 @@
-<?php 
+<?php get_header(); ?>
+
+<?php
 /*
 Template Name: Blog Page
- */
-
-get_header(); ?>
+*/
+?>
 
 	<!-- Page -->
 	<div id="page-wrapper">

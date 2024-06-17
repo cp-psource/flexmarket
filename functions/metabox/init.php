@@ -506,7 +506,7 @@ function cmb_editor_footer_scripts() { ?>
 	if ( isset( $_GET['cmb_force_send'] ) && 'true' == $_GET['cmb_force_send'] ) { 
 		$label = $_GET['cmb_send_label']; 
 		if ( empty( $label ) ) $label="Select File";
-		?>	
+		?>
 		<script type="text/javascript">
 		jQuery(function($) {
 			$('td.savesend input').val('<?php echo $label; ?>');

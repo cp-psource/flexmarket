@@ -133,35 +133,6 @@ function getBox(el){
 }
 
 /**
- * Crossbrowser mouse coordinates
- */
-function getMouseCoords(e){
-	// pageX/Y is not supported in IE
-	// http://www.quirksmode.org/dom/w3c_cssom.html
-	if (!e.pageX && e.clientX){
-		// In Internet Explorer 7 some properties (mouse coordinates) are treated as physical,
-		// while others are logical (offset).
-		var zoom = 1;
-		var body = document.body;
-
-		if (body.getBoundingClientRect) {
-			var bound = body.getBoundingClientRect();
-			zoom = (bound.right - bound.left)/body.clientWidth;
-		}
-
-		return {
-			x: e.clientX / zoom + d.body.scrollLeft + d.documentElement.scrollLeft,
-			y: e.clientY / zoom + d.body.scrollTop + d.documentElement.scrollTop
-		};
-	}
-
-	return {
-		x: e.pageX,
-		y: e.pageY
-	};
-
-}
-/**
  * Function generates unique id
  */
 var getUID = function(){
@@ -178,38 +149,6 @@ function fileFromPath(file){
 function getExt(file){
 	return (/[.]/.exec(file)) ? /[^.]+$/.exec(file.toLowerCase()) : '';
 }
-
-/**
- * Cross-browser way to get xhr object
- */
-var getXhr = function(){
-	var xhr;
-
-	return function(){
-		if (xhr) return xhr;
-
-		if (typeof XMLHttpRequest !== 'undefined') {
-			xhr = new XMLHttpRequest();
-		} else {
-			var v = [
-				"Microsoft.XmlHttp",
-				"MSXML2.XmlHttp.5.0",
-				"MSXML2.XmlHttp.4.0",
-				"MSXML2.XmlHttp.3.0",
-				"MSXML2.XmlHttp.2.0"
-			];
-
-			for (var i=0; i < v.length; i++){
-				try {
-					xhr = new ActiveXObject(v[i]);
-					break;
-				} catch (e){}
-			}
-		}
-
-		return xhr;
-	}
-}();
 
 // Please use AjaxUpload , Ajax_upload will be removed in the next version
 Ajax_upload = AjaxUpload = function(button, options){
@@ -492,80 +431,63 @@ AjaxUpload.prototype = {
 
 			var toDeleteFlag = false;
 
-			addEvent(iframe, 'load', function(e){
-
-				if (// For Safari
-					iframe.src == "javascript:'%3Chtml%3E%3C/html%3E';" ||
-					// For FF, IE
-					iframe.src == "javascript:'<html></html>';"){
-
+			addEvent(iframe, 'load', function(e) {
+				var doc = iframe.contentDocument ? iframe.contentDocument : iframe.contentWindow.document;
+			
+				// For Safari and other browsers
+				if (iframe.src === "about:blank") {
 					// First time around, do not delete.
-					if( toDeleteFlag ){
+					if (toDeleteFlag) {
 						// Fix busy state in FF3
-						setTimeout( function() {
-							d.body.removeChild(iframe);
+						setTimeout(function() {
+							document.body.removeChild(iframe);
 						}, 0);
 					}
 					return;
 				}
-
-				var doc = iframe.contentDocument ? iframe.contentDocument : frames[iframe.id].document;
-
-				// fixing Opera 9.26
-				if (doc.readyState && doc.readyState != 'complete'){
-					// Opera fires load event multiple times
-					// Even when the DOM is not ready yet
-					// this fix should not affect other browsers
+			
+				// fixing Opera 9.26 and 9.64
+				if (doc.readyState && doc.readyState !== 'complete' || (doc.body && doc.body.innerHTML === "false")) {
 					return;
 				}
-
-				// fixing Opera 9.64
-				if (doc.body && doc.body.innerHTML == "false"){
-					// In Opera 9.64 event was fired second time
-					// when body.innerHTML changed from false
-					// to server response approx. after 1 sec
-					return;
-				}
-
+			
 				var response;
-
-				if (doc.XMLDocument){
-					// response is a xml document IE property
+				if (doc.XMLDocument) {
+					// response is an XML document IE property
 					response = doc.XMLDocument;
-				} else if (doc.body){
-					// response is html document or plain text
+				} else if (doc.body) {
+					// response is HTML document or plain text
 					response = doc.body.innerHTML;
-					if (settings.responseType && settings.responseType.toLowerCase() == 'json'){
-						// If the document was sent as 'application/javascript' or
-						// 'text/javascript', then the browser wraps the text in a <pre>
-						// tag and performs html encoding on the contents.  In this case,
-						// we need to pull the original text content from the text node's
+					if (settings.responseType && settings.responseType.toLowerCase() === 'json') {
+						// If the document was sent as 'application/javascript' or 'text/javascript',
+						// then the browser wraps the text in a <pre> tag and performs HTML encoding on the contents.
+						// In this case, we need to pull the original text content from the text node's
 						// nodeValue property to retrieve the unmangled content.
 						// Note that IE6 only understands text/html
-						if (doc.body.firstChild && doc.body.firstChild.nodeName.toUpperCase() == 'PRE'){
+						if (doc.body.firstChild && doc.body.firstChild.nodeName.toUpperCase() === 'PRE') {
 							response = doc.body.firstChild.firstChild.nodeValue;
 						}
 						if (response) {
-							response = window["eval"]("(" + response + ")");
+							response = JSON.parse(response);
 						} else {
 							response = {};
 						}
 					}
 				} else {
-					// response is a xml document
-					var response = doc;
+					// response is an XML document
+					response = doc;
 				}
-
+			
 				settings.onComplete.call(self, file, response);
-
-				// Reload blank page, so that reloading main page
-				// does not re-submit the post. Also, remember to
-				// delete the frame
+			
+				// Reload blank page, so that reloading the main page
+				// does not re-submit the post. Also, remember to delete the frame
 				toDeleteFlag = true;
-
+			
 				// Fix IE mixed content issue
-				iframe.src = "javascript:'<html></html>';";
+				iframe.src = "about:blank";
 			});
+			
 
 		} else {
 			// clear input to allow user to select same file

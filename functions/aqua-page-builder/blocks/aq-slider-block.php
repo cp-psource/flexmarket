@@ -2,6 +2,8 @@
 /* List Block */
 if(!class_exists('AQ_Slider_Block')) {
 	class AQ_Slider_Block extends AQ_Block {
+
+		public $name;
 	
 		function __construct() {
 			$block_options = array(

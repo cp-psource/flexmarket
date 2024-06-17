@@ -1,6 +1,8 @@
 <?php
 /** Slogan block **/
 class AQ_CTA_Block extends AQ_Block {
+
+	public $name;
 	
 	//set and create block
 	function __construct() {

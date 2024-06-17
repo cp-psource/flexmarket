@@ -3,6 +3,8 @@
 
 if(!class_exists('AQ_Map_Block')) {
 	class AQ_Map_Block extends AQ_Block {
+
+		public $name;
 		
 		//set and create block
 		function __construct() {

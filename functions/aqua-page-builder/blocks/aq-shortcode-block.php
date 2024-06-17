@@ -1,6 +1,8 @@
 <?php
 /** Shortcode block **/
 class AQ_Shortcode_Block extends AQ_Block {
+
+	public $name;
 	
 	//set and create block
 	function __construct() {

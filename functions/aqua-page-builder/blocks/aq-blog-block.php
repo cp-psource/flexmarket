@@ -1,6 +1,8 @@
 <?php
 /** Blog Updates block **/
 class AQ_Blog_Updates_Block extends AQ_Block {
+
+	public $name;
 	
 	//set and create block
 	function __construct() {

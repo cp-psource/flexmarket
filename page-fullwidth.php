@@ -1,9 +1,12 @@
-<?php 
+<?php get_header(); ?>
+
+<?php
 /*
 Template Name: Page (full width)
- */
+*/
+?>
 
-get_header(); ?>
+
 
 	<!-- Page -->
 	<div id="page-wrapper">

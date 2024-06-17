@@ -2,6 +2,8 @@
 /* Table Block */
 if(!class_exists('AQ_Table_Block')) {
 	class AQ_Table_Block extends AQ_Block {
+
+		public $name;
 	
 		function __construct() {
 			$block_options = array(

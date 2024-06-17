@@ -1,6 +1,8 @@
 <?php
 /** [MP] Product Carousel block **/
 class AQ_MP_Product_Carousel_Block extends AQ_Block {
+
+	public $name;
 	
 	//set and create block
 	function __construct() {

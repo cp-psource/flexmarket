@@ -2,6 +2,8 @@
 /* Aqua Tabs Block */
 if(!class_exists('AQ_Tabs_Block')) {
 	class AQ_Tabs_Block extends AQ_Block {
+
+		public $name;
 	
 		function __construct() {
 			$block_options = array(
