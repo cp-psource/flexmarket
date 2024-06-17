@@ -47,7 +47,9 @@ if(!class_exists('AQ_Page_Builder')) {
 			add_action('init', array(&$this, 'register_template_post_type'));
 			add_action('init', array(&$this, 'add_shortcode'));
 			add_action('template_redirect', array(&$this, 'preview_template'));
-			add_filter('contextual_help', array(&$this, 'contextual_help'));
+			//add_filter('contextual_help', array(&$this, 'contextual_help'));
+			// Neue Funktion für Hilfe-Tab hinzufügen
+			add_action('admin_head', array(&$this, 'aqpb_contextual_help_funktion'));
 			if(!is_admin()) add_filter('init', array(&$this, 'view_enqueue'));
 			add_action('admin_bar_menu', array(&$this, 'add_admin_bar'), 1000);
 
@@ -675,38 +677,36 @@ if(!class_exists('AQ_Page_Builder')) {
 
 		}
 		
-		/**
-		 * Contextual help tabs */
-		function contextual_help() {
-		
+
+		function aqpb_contextual_help_funktion() {
 			$screen = get_current_screen();
-			$contextual_helps = apply_filters('aqpb_contextual_helps', array());
-			
-			if($screen->id == $this->page) {
+			$config = aq_page_builder_config(); // Rufe die Konfiguration ab
+
+			if ($screen->id == $this->page) {
 				// Help tab sidebar
 				$screen->set_help_sidebar(
 					'<p><strong>' . __('For more information:') . '</strong></p>' .
 					'<p>' . __('<a href="http://aquagraphite.com/api/documentation/aqua-page-builder" target="_blank">Documentation</a>') . '</p>' .
 					'<p>' . __('<a href="http://aquagraphite.com/api/changelog/aqua-page-builder" target="_blank">Changelog</a>') . '</p>'
 				);
-				
+
 				// Main overview tab
-				$screen->add_help_tab( array(
-				'id'		=> 'overview',
-				'title'		=> __('Overview'),
-				'content'	=> $this->args['contextual_help'],
-				) );
-				
-				/** Additional help tabs */
-				if(!empty($contextual_helps)) {
-					foreach($contextual_helps as $help) {
+				$screen->add_help_tab(array(
+					'id'       => 'overview',
+					'title'    => __('Overview'),
+					'content'  => $config['contextual_help'], // Verwende die Hilfe-Inhalte aus der Konfiguration
+				));
+
+				// Zusätzliche Hilfe-Tabs
+				$contextual_helps = apply_filters('aqpb_contextual_helps', array());
+				if (!empty($contextual_helps)) {
+					foreach ($contextual_helps as $help) {
 						$screen->add_help_tab($help);
 					}
 				}
-				
 			}
-			
 		}
+
 		
 		/**
 		 * Main page builder settings page display

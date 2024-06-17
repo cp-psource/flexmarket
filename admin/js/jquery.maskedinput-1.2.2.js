@@ -1,4 +1,4 @@
-﻿/// <reference path="../../../lib/jquery-1.2.6.js" />
+﻿
 /*
 	Masked Input plugin for jQuery
 	Copyright (c) 2007-2009 Josh Bush (digitalbush.com)
@@ -7,7 +7,7 @@
 */
 (function($) {
 	var pasteEventName = ($.browser.msie ? 'paste' : 'input') + ".mask";
-	var iPhone = (window.orientation != undefined);
+	var iPhone = (screen.orientation != undefined);
 
 	$.mask = {
 		//Predefined character definitions
@@ -150,7 +150,7 @@
 						//Fixes Mac FF bug on backspace
 						return (e.keyCode == 8) ? false : null;
 					}
-					e = e || window.event;
+					e = e || Event;
 					var k = e.charCode || e.keyCode || e.which;
 					var pos = $(this).caret();
 
@@ -219,11 +219,11 @@
 					input
 					.one("unmask", function() {
 						input
-							.unbind(".mask")
+							.off(".mask")
 							.removeData("buffer")
 							.removeData("tests");
 					})
-					.bind("focus.mask", function() {
+					.on("focus.mask", function() {
 						focusText = input.val();
 						var pos = checkVal();
 						writeBuffer();
@@ -234,14 +234,14 @@
 								input.caret(pos);
 						}, 0);
 					})
-					.bind("blur.mask", function() {
+					.on("blur.mask", function() {
 						checkVal();
 						if (input.val() != focusText)
 							input.change();
 					})
-					.bind("keydown.mask", keydownEvent)
-					.bind("keypress.mask", keypressEvent)
-					.bind(pasteEventName, function() {
+					.on("keydown.mask", keydownEvent)
+					.on("keypress.mask", keypressEvent)
+					.on(pasteEventName, function() {
 						setTimeout(function() { input.caret(checkVal(true)); }, 0);
 					});
 
