@@ -1,8 +1,6 @@
 FlexMarket
 ==========
 
-Author: Nathan Onn - <a href="http://www.marketpressthemes.com">MarketPressThemes.com</a>
-
 <h2><u>Overview</u></h2>
 
 <b>FlexMarket is a fully responsive MarketPress theme</b>, built using the popular Bootstrap framework. This theme is fully equipped with responsive layout, awesome drag & drop page builder, advanced theme options panel, more than 500 Google web fonts, unlimited color customization, and many more...
