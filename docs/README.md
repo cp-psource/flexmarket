@@ -34,9 +34,7 @@ Live demo site: http://www.marketpressthemes.com/flexmarket/
 
 There are two ways to download FlexMarket:
 
-1. Download the theme from <a href="http://www.marketpressthemes.com">MarketPressThemes.com</a>. You'll need to create an account first before you can proceed to the user dashboard to download the theme.
-
-2. Alternately, you can also download the theme through GitHub by pressing the 'ZIP' button above. Once you've downloaded the zip file, proceed to unpack the zip file and rename the folder to: 'flexmarket', then zip / compress the renamed folder and upload it to your WordPress site using the Themes Uploader from the WordPress Admin themes page.
+You can also download the theme through GitHub by pressing the 'ZIP' button above. Once you've downloaded the zip file, proceed to unpack the zip file and rename the folder to: 'flexmarket', then zip / compress the renamed folder and upload it to your WordPress site using the Themes Uploader from the WordPress Admin themes page.
 
 
 <h2><u>Documentation</u></h2>
