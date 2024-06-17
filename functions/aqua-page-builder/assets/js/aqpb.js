@@ -375,20 +375,19 @@ jQuery(document).ready(function($){
 	if(720 < tabs_width) {
 		$('.aqpb-tabs-arrow').show();
 		centerActiveTab();
-		$('.aqpb-tabs-arrow-right a').mousedown(function() {
+		$('.aqpb-tabs-arrow-right a').on('mousedown', function() {
 			mouseStilldown = true;
-		    moveTabsLeft();
-		}).bind('mouseup mouseleave', function() {
-		    mouseStilldown = false;
+			moveTabsLeft();
+		}).on('mouseup mouseleave', function() {
+			mouseStilldown = false;
 		});
 		
-		$('.aqpb-tabs-arrow-left a').mousedown(function() {
+		$('.aqpb-tabs-arrow-left a').on('mousedown', function() {
 			mouseStilldown = true;
-		    moveTabsRight();
-		}).bind('mouseup mouseleave', function() {
-		    mouseStilldown = false;
-		});
-		
+			moveTabsRight();
+		}).on('mouseup mouseleave', function() {
+			mouseStilldown = false;
+		});			
 	}
 	
 	/** Sort nav order **/
