@@ -205,7 +205,7 @@ function m413_load_only() {
 
 			var flip = 0;
 
-			jQuery('#expand_options').click(function(){
+			jQuery('#expand_options').on('click', function(){
 				if(flip == 0){
 					flip = 1;
 					jQuery('#m413_container #m413-nav').hide();
@@ -262,7 +262,7 @@ function m413_load_only() {
 					}
 				}
 
-				jQuery('.m413-radio-img-img').click(function(){
+				jQuery('.m413-radio-img-img').on('click', function(){
 					jQuery(this).parent().parent().find('.m413-radio-img-img').removeClass('m413-radio-img-selected');
 					jQuery(this).addClass('m413-radio-img-selected');
 
@@ -271,7 +271,7 @@ function m413_load_only() {
 				jQuery('.m413-radio-img-img').show();
 				jQuery('.m413-radio-img-radio').hide();
 				jQuery('#m413-nav li:first').addClass('current');
-				jQuery('#m413-nav li a').click(function(evt){
+				jQuery('#m413-nav li a').on('click', function(evt){
 
 						jQuery('#m413-nav li').removeClass('current');
 						jQuery(this).parent().addClass('current');
@@ -369,7 +369,7 @@ function m413_load_only() {
 			});
 
 			//AJAX Remove (clear option value)
-			jQuery('.image_reset_button').click(function(){
+			jQuery('.image_reset_button').on('click', function(){
 
 					var clickedObject = jQuery(this);
 					var clickedID = jQuery(this).attr('id');
@@ -404,7 +404,7 @@ function m413_load_only() {
 /* Top save button
 jQuery(document).ready( function(){
   // bind "click" event for links with title="submit"
-  jQuery("a[title=submit]").click( function(){
+  jQuery("a[title=submit]").on('click', function(){
     // it submits the form it is contained within
     jQuery(this).parents("form").submit();
   });

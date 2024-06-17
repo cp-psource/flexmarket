@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 
 	jQuery('#all').addClass('current-li');
 
-	jQuery("ul.mpt-product-categories > li").click(function(){
+	jQuery("ul.mpt-product-categories > li").on('click', function(){
 		show(this.id);
 	});
 

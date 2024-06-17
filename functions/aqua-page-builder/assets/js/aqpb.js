@@ -353,17 +353,17 @@ jQuery(document).ready(function($){
 	});
 	
 	/** Disable blocks archive if no template **/
-	$('#page-builder-column.metabox-holder-disabled').click( function() { return false })
+	$('#page-builder-column.metabox-holder-disabled').on('click', function() { return false })
 	$('#page-builder-column.metabox-holder-disabled #blocks-archive .block').draggable("destroy");
 	
 	/** Confirm delete template **/
-	$('a.template-delete').click( function() { 
+	$('a.template-delete').on('click', function() { 
 		var agree = confirm('You are about to permanently delete this template. \'Cancel\' to stop, \'OK\' to delete.');
 		if(agree) { return } else { return false }
 	});
 	
 	/** Cancel template save/create if no template name **/
-	$('#save_template_header, #save_template_footer').click(function() {
+	$('#save_template_header, #save_template_footer').on('click', function() {
 		var template_name = $('#template-name').val().trim();
 		if(template_name.length === 0) {
 			$('.major-publishing-actions .open-label').addClass('form-invalid');
