@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 			$this.wpColorPicker();
 			
 			//hide picker if click away
-			$(document).bind('click', function(e) {
+			$(document).on('click', function(e) {
 				var $clicked = $(e.target);
 				if (!$clicked.is($(parent).find('*'))) {
 					$this.iris('hide');
@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
 
 	aqpb_colorpicker();
 
-	$('ul.blocks').bind('sortstop', function() {
+	$('ul.blocks').on('sortstop', function() {
 		aqpb_colorpicker();
 	});
 	
@@ -113,7 +113,7 @@ jQuery(document).ready(function($){
 	}
 	aq_sortable_list_init();
 	
-	$('ul.blocks').bind('sortstop', function() {
+	$('ul.blocks').on('sortstop', function() {
 		aq_sortable_list_init();
 	});
 	

@@ -90,7 +90,7 @@ jQuery(document).ready(function($){
 		}
 		
 		//set widths when the parent resized
-		$('#' + blockID).bind( "resizestop", function(event, ui) {
+		$('#' + blockID).on( "resizestop", function(event, ui) {
 			if($('#' + blockID).hasClass('block-aq_column_block')) {
 				var $blockColumn = $('#' + blockID),
 					new_maxWidth = parseInt($blockColumn.css('width'));
@@ -250,12 +250,12 @@ jQuery(document).ready(function($){
 	columns_sortable();
 	
 	/** Sortable bindings **/
-	$( "ul.blocks" ).bind( "sortstart", function(event, ui) {
+	$( "ul.blocks" ).on( "sortstart", function(event, ui) {
 		ui.placeholder.css('width', ui.helper.css('width'));
 		$('.empty-template').remove();
 	});
 	
-	$( "ul.blocks" ).bind( "sortstop", function(event, ui) {
+	$( "ul.blocks" ).on( "sortstop", function(event, ui) {
 		
 		//if coming from archive
 		if (ui.item.hasClass('ui-draggable')) {
@@ -290,7 +290,7 @@ jQuery(document).ready(function($){
 		    ui.item.trigger("resizestop");
 		    
 		    //open on drop
-		    ui.item.find('a.block-edit').click();
+		    ui.item.find('a.block-edit').trigger("click");
 		    
 		    //disable resizable on .not-resizable blocks
 		    $(".ui-resizable.not-resizable").resizable("destroy");
@@ -347,7 +347,7 @@ jQuery(document).ready(function($){
 				update_block_number();
 			}).fadeOut('fast');
 		} else if($clicked.hasClass('close')) {
-			$parent.find('> .block-bar a.block-edit').click();
+			$parent.find('> .block-bar a.block-edit').trigger("click");
 		}
 		return false;
 	});

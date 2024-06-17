@@ -43,7 +43,7 @@
 			if(!empty($custom)) {
 				echo '<p>'.$custom.'</p>';
 			 } else {
-				echo '<p>Copyright &copy;'.$date.' '.$sitename.' | Designed by <a href="http://www.marketpressthemes.com"><b>MarketPressThemes.com</b></a></p>';
+				echo '<p>Copyright &copy;'.$date.' '.$sitename.' | Designed by <a href="https://github.com/cp-psource"><b>PSOURCE</b></a></p>';
 			}
 	}
 	
@@ -707,5 +707,4 @@
 				break;
 		}
 	}
-
 ?>
