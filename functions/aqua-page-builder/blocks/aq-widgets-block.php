@@ -2,7 +2,7 @@
 /* Registered Sidebars Blocks */
 class AQ_Widgets_Block extends AQ_Block {
 
-
+	public $block_id;
 	public $name;
 	
 	function __construct() {

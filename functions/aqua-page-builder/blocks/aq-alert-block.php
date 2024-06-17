@@ -5,6 +5,7 @@ if(!class_exists('AQ_Alert_Block')) {
 	class AQ_Alert_Block extends AQ_Block {
 
 		public $name;
+		public $block_id;
 		
 		//set and create block
 		function __construct() {

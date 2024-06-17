@@ -3,8 +3,9 @@
 class AQ_Well_Block extends AQ_Block {
 
 	public $name;
+	public $block_id;
 	
-	/* PHP5 constructor */
+	/* PHP8 constructor */
 	function __construct() {
 		
 		$block_options = array(

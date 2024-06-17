@@ -4,6 +4,7 @@ if(!class_exists('AQ_Slider_Block')) {
 	class AQ_Slider_Block extends AQ_Block {
 
 		public $name;
+		public $block_id;
 	
 		function __construct() {
 			$block_options = array(
