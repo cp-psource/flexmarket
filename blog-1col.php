@@ -26,7 +26,7 @@
 
 										</div>
 
-										<div class="comments"><a href="<?php comments_link(); ?>"><?php comments_number( 'No Comments' , '1 Comment' , '% Comments' ); ?></a></div>
+										<div class="comments"><a href="<?php comments_link(); ?>"><?php comments_number( 'No Comments' , '1 Comment' , '% Comments', 'flexmarket' ); ?></a></div>
 
 										</center>
 

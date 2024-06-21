@@ -9,7 +9,7 @@
 
 					<div class="clear padding30"></div>
 							
-						<h1 class="page-header"><span><?php _e('Our Products'); ?></span></h1>
+						<h1 class="page-header"><span><?php _e('Our Products', 'flexmarket'); ?></span></h1>
 
 					<div class="clear padding15"></div>
 

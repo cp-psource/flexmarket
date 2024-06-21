@@ -1,0 +1,1711 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexMarket\n"
+"POT-Creation-Date: 2024-06-21 15:15+0200\n"
+"PO-Revision-Date: 2024-06-21 15:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: psource/psource-plugin-update/vendor\n"
+
+#: admin/theme-settings.php:704
+msgid "General Settings"
+msgstr ""
+
+#: admin/theme-settings.php:707
+msgid "Website Logo"
+msgstr ""
+
+#: admin/theme-settings.php:708
+msgid ""
+"Upload a custom logo for your Website. <em>Recommended width - 170px</em>"
+msgstr ""
+
+#: admin/theme-settings.php:713
+msgid "Favicon"
+msgstr ""
+
+#: admin/theme-settings.php:714
+msgid ""
+"Upload a 16px x 16px image that will represent your website's favicon.<br /"
+"><br /><em>To ensure cross-browser compatibility, we recommend converting "
+"the favicon into .ico format before uploading. (<a href=\"http://www.favicon."
+"cc/\">www.favicon.cc</a>)</em>"
+msgstr ""
+
+#: admin/theme-settings.php:719
+msgid "Footer Text"
+msgstr ""
+
+#: admin/theme-settings.php:720
+msgid ""
+"Override the default footer links by entering your own footer text here."
+msgstr ""
+
+#: admin/theme-settings.php:729
+msgid "Styling Options"
+msgstr ""
+
+#: admin/theme-settings.php:732
+msgid "Header Font"
+msgstr ""
+
+#: admin/theme-settings.php:733
+msgid "Select the font you want to use for header text"
+msgstr ""
+
+#: admin/theme-settings.php:739
+msgid "Body Font"
+msgstr ""
+
+#: admin/theme-settings.php:740
+msgid "Select the font you want to use for body text"
+msgstr ""
+
+#: admin/theme-settings.php:746
+msgid "Use Custom Google Web Font"
+msgstr ""
+
+#: admin/theme-settings.php:747
+msgid ""
+"By default, this option is unchecked. If you want to use your own google web "
+"font then simply check this option."
+msgstr ""
+
+#: admin/theme-settings.php:752
+msgid "Custom Google Web Font For Header Text"
+msgstr ""
+
+#: admin/theme-settings.php:753 admin/theme-settings.php:759
+msgid "Enter your custom google web font here."
+msgstr ""
+
+#: admin/theme-settings.php:758
+msgid "Custom Google Web Font For Body Text"
+msgstr ""
+
+#: admin/theme-settings.php:764
+msgid "link Color"
+msgstr ""
+
+#: admin/theme-settings.php:765
+msgid "Pick a custom color for links."
+msgstr ""
+
+#: admin/theme-settings.php:770
+msgid "link hover Color"
+msgstr ""
+
+#: admin/theme-settings.php:771
+msgid "Pick a custom color for links hover."
+msgstr ""
+
+#: admin/theme-settings.php:780
+msgid "Header Section"
+msgstr ""
+
+#: admin/theme-settings.php:783 admin/theme-settings.php:870
+#: admin/theme-settings.php:1170 admin/theme-settings.php:1261
+#: admin/theme-settings.php:1315
+msgid "Background Color"
+msgstr ""
+
+#: admin/theme-settings.php:784 admin/theme-settings.php:1080
+#: admin/theme-settings.php:1125
+msgid "Pick a custom background color for header section."
+msgstr ""
+
+#: admin/theme-settings.php:789 admin/theme-settings.php:876
+#: admin/theme-settings.php:1273 admin/theme-settings.php:1327
+msgid "Background Pattern"
+msgstr ""
+
+#: admin/theme-settings.php:790 admin/theme-settings.php:877
+#: admin/theme-settings.php:1092 admin/theme-settings.php:1111
+#: admin/theme-settings.php:1137 admin/theme-settings.php:1156
+#: admin/theme-settings.php:1274 admin/theme-settings.php:1328
+msgid "Select what type of background pattern you want to display."
+msgstr ""
+
+#: admin/theme-settings.php:796
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: admin/theme-settings.php:797
+msgid ""
+"if you want to make the header section sticky then simply enable this option."
+msgstr ""
+
+#: admin/theme-settings.php:802
+msgid "Nav Menu: Text Color"
+msgstr ""
+
+#: admin/theme-settings.php:803
+msgid "Pick a custom text color for Nav Menu."
+msgstr ""
+
+#: admin/theme-settings.php:808
+msgid "Nav Menu: Text Color (hover)"
+msgstr ""
+
+#: admin/theme-settings.php:809
+msgid "Pick a custom text hover color for Nav Menu."
+msgstr ""
+
+#: admin/theme-settings.php:814
+msgid "Nav Menu: Background Color (hover)"
+msgstr ""
+
+#: admin/theme-settings.php:815
+msgid "Pick a custom background color for nav menu."
+msgstr ""
+
+#: admin/theme-settings.php:820
+msgid "Dropdown Menu: Background Color"
+msgstr ""
+
+#: admin/theme-settings.php:821
+msgid "Pick a custom background color for dropdown menu."
+msgstr ""
+
+#: admin/theme-settings.php:826
+msgid "Dropdown Menu: Text Color"
+msgstr ""
+
+#: admin/theme-settings.php:827
+msgid "Pick a custom text color for dropdown menu."
+msgstr ""
+
+#: admin/theme-settings.php:832
+msgid "Dropdown Menu: Background Color (Hover)"
+msgstr ""
+
+#: admin/theme-settings.php:833
+msgid "Pick a custom background (hover) color for dropdown menu."
+msgstr ""
+
+#: admin/theme-settings.php:838
+msgid "Dropdown Menu: Text Color (Hover)"
+msgstr ""
+
+#: admin/theme-settings.php:839
+msgid "Pick a custom text (hover) color for dropdown menu."
+msgstr ""
+
+#: admin/theme-settings.php:849
+msgid "Homepage Layout"
+msgstr ""
+
+#: admin/theme-settings.php:852
+msgid "Homepage Template ID"
+msgstr ""
+
+#: admin/theme-settings.php:853
+msgid "Insert the template id of your homepage here"
+msgstr ""
+
+#: admin/theme-settings.php:858
+msgid "Show Footer Widget In Homepage"
+msgstr ""
+
+#: admin/theme-settings.php:859
+msgid ""
+"By default, this option is enabled. If you want to disable footer widget in "
+"homepage then simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:864 admin/theme-settings.php:1176
+#: admin/theme-settings.php:1267 admin/theme-settings.php:1321
+msgid "Text Color"
+msgstr ""
+
+#: admin/theme-settings.php:865
+msgid "Pick a custom text color for this section."
+msgstr ""
+
+#: admin/theme-settings.php:871
+msgid "Pick a custom background color for this section."
+msgstr ""
+
+#: admin/theme-settings.php:889
+msgid "MarketPress Settings"
+msgstr ""
+
+#: admin/theme-settings.php:892
+msgid "Store Page Template ID"
+msgstr ""
+
+#: admin/theme-settings.php:893
+msgid "Insert the template id for the store page here"
+msgstr ""
+
+#: admin/theme-settings.php:898 admin/theme-settings.php:984
+msgid "Product Listing Layout"
+msgstr ""
+
+#: admin/theme-settings.php:899 admin/theme-settings.php:985
+msgid "Select the layout you want to display in the product listing page"
+msgstr ""
+
+#: admin/theme-settings.php:909 admin/theme-settings.php:996
+msgid "Product Listing Entries (Per Page)"
+msgstr ""
+
+#: admin/theme-settings.php:910 admin/theme-settings.php:997
+msgid ""
+"Select the number of entries you want to display in each product listing page"
+msgstr ""
+
+#: admin/theme-settings.php:936 admin/theme-settings.php:1043
+msgid "Button Color"
+msgstr ""
+
+#: admin/theme-settings.php:937
+msgid ""
+"Select the color you want to use for all the buttons in MarketPress pages"
+msgstr ""
+
+#: admin/theme-settings.php:943 admin/theme-settings.php:1050
+msgid "Icon Tag Color"
+msgstr ""
+
+#: admin/theme-settings.php:944
+msgid ""
+"Select the color you want to use for all the Icon Tag in MarketPress pages"
+msgstr ""
+
+#: admin/theme-settings.php:950
+msgid "Enable Advanced Sort"
+msgstr ""
+
+#: admin/theme-settings.php:951
+msgid ""
+"if you want to enable the advanced soft feature in the product listing page "
+"then simply enable this option."
+msgstr ""
+
+#: admin/theme-settings.php:956
+msgid "Advanced Soft: Button Position"
+msgstr ""
+
+#: admin/theme-settings.php:957
+msgid "Select the position of advanced soft button."
+msgstr ""
+
+#: admin/theme-settings.php:975
+msgid "MPDG Settings"
+msgstr ""
+
+#: admin/theme-settings.php:978
+msgid "Enable MP Dynamic Grid In All Product Listing Pages"
+msgstr ""
+
+#: admin/theme-settings.php:979
+msgid ""
+"if you want to enable the MP dynamic gird in all product listing pages then "
+"simply enable this option."
+msgstr ""
+
+#: admin/theme-settings.php:1044
+msgid "Select the color you want to use for the button"
+msgstr ""
+
+#: admin/theme-settings.php:1051
+msgid "Select the color you want to use for all the icon tag"
+msgstr ""
+
+#: admin/theme-settings.php:1057
+msgid "Price Tag Color"
+msgstr ""
+
+#: admin/theme-settings.php:1058
+msgid "Select the color you want to use for the price tag"
+msgstr ""
+
+#: admin/theme-settings.php:1076
+msgid "Page Settings"
+msgstr ""
+
+#: admin/theme-settings.php:1079 admin/theme-settings.php:1124
+msgid "Header Section: Background Color"
+msgstr ""
+
+#: admin/theme-settings.php:1085 admin/theme-settings.php:1130
+msgid "Header Section: Text Color"
+msgstr ""
+
+#: admin/theme-settings.php:1086 admin/theme-settings.php:1131
+msgid "Pick a custom text color for header section."
+msgstr ""
+
+#: admin/theme-settings.php:1091 admin/theme-settings.php:1136
+msgid "Header Section: Background Pattern"
+msgstr ""
+
+#: admin/theme-settings.php:1098 admin/theme-settings.php:1143
+msgid "Content Section: Background Color"
+msgstr ""
+
+#: admin/theme-settings.php:1099 admin/theme-settings.php:1144
+msgid "Pick a custom background color for content section."
+msgstr ""
+
+#: admin/theme-settings.php:1104 admin/theme-settings.php:1149
+msgid "Content Section: Text Color"
+msgstr ""
+
+#: admin/theme-settings.php:1105 admin/theme-settings.php:1150
+msgid "Pick a custom text color for content section."
+msgstr ""
+
+#: admin/theme-settings.php:1110 admin/theme-settings.php:1155
+msgid "Content Section: Background Pattern"
+msgstr ""
+
+#: admin/theme-settings.php:1121
+msgid "Post Settings"
+msgstr ""
+
+#: admin/theme-settings.php:1166
+msgid "Sidebar Widget Settings"
+msgstr ""
+
+#: admin/theme-settings.php:1171
+msgid "Pick a custom background color for sidebar widget."
+msgstr ""
+
+#: admin/theme-settings.php:1177
+msgid "Pick a custom text color for sidebar widget."
+msgstr ""
+
+#: admin/theme-settings.php:1182 admin/theme-settings.php:1280
+#: admin/theme-settings.php:1334
+msgid "Link Color"
+msgstr ""
+
+#: admin/theme-settings.php:1183
+msgid "Pick a custom link color for sidebar widget."
+msgstr ""
+
+#: admin/theme-settings.php:1188 admin/theme-settings.php:1292
+msgid "Icon Color"
+msgstr ""
+
+#: admin/theme-settings.php:1189
+msgid "Select the color of arrow icon in the sidebar widget ."
+msgstr ""
+
+#: admin/theme-settings.php:1203
+msgid "Background Color (hover)"
+msgstr ""
+
+#: admin/theme-settings.php:1204
+msgid "Pick a custom background color for sidebar widget (on hover)."
+msgstr ""
+
+#: admin/theme-settings.php:1209
+msgid "Text Color (hover)"
+msgstr ""
+
+#: admin/theme-settings.php:1210
+msgid "Pick a custom text color for sidebar widget (on hover)."
+msgstr ""
+
+#: admin/theme-settings.php:1215
+msgid "Link Color (Hover)"
+msgstr ""
+
+#: admin/theme-settings.php:1216
+msgid "Pick a custom link color for sidebar widget (on hover)."
+msgstr ""
+
+#: admin/theme-settings.php:1221
+msgid "Icon Color (hover)"
+msgstr ""
+
+#: admin/theme-settings.php:1222
+msgid "Select the color of arrow icon in the sidebar widget (on hover)."
+msgstr ""
+
+#: admin/theme-settings.php:1241
+msgid "Footer Widget Settings"
+msgstr ""
+
+#: admin/theme-settings.php:1244
+msgid "Show Footer Widget"
+msgstr ""
+
+#: admin/theme-settings.php:1245
+msgid ""
+"By default, this option is enabled. If you want to disable the footer widget "
+"then simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1250
+msgid "Footer Widget Layout"
+msgstr ""
+
+#: admin/theme-settings.php:1251
+msgid "Select the layout you want to display in footer widget."
+msgstr ""
+
+#: admin/theme-settings.php:1262
+msgid "Pick a custom background color for footer widget."
+msgstr ""
+
+#: admin/theme-settings.php:1268
+msgid "Pick a custom text color for footer widget."
+msgstr ""
+
+#: admin/theme-settings.php:1281
+msgid "Pick a custom link color for footer widget."
+msgstr ""
+
+#: admin/theme-settings.php:1286 admin/theme-settings.php:1340
+msgid "Link Color (hover)"
+msgstr ""
+
+#: admin/theme-settings.php:1287
+msgid "Pick a custom link hover color for footer widget."
+msgstr ""
+
+#: admin/theme-settings.php:1293
+msgid "Select the color of arrow icon in the footer widget ."
+msgstr ""
+
+#: admin/theme-settings.php:1311
+msgid "Footer Section"
+msgstr ""
+
+#: admin/theme-settings.php:1316
+msgid "Pick a custom background color for footer section."
+msgstr ""
+
+#: admin/theme-settings.php:1322
+msgid "Pick a custom text color for footer section."
+msgstr ""
+
+#: admin/theme-settings.php:1335
+msgid "Pick a custom link color for footer section."
+msgstr ""
+
+#: admin/theme-settings.php:1341
+msgid "Pick a custom link hover color for footer section."
+msgstr ""
+
+#: admin/theme-settings.php:1350
+msgid "Social Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1353
+msgid "Show Facebook Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1354
+msgid ""
+"By default, this option is enabled. If you want to disable Facebook icon "
+"then simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1359
+msgid "Show Twitter Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1360
+msgid ""
+"By default, this option is enabled. If you want to disable Twitter icon then "
+"simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1365
+msgid "Show Google+ Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1366
+msgid ""
+"By default, this option is enabled. If you want to disable Google+ icon then "
+"simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1371
+msgid "Show Dribbble Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1372
+msgid ""
+"By default, this option is enabled. If you want to disable Dribbble icon "
+"then simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1377
+msgid "Show Vimeo Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1378
+msgid ""
+"By default, this option is enabled. If you want to disable Vimeo icon then "
+"simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1383
+msgid "Show RSS Icon"
+msgstr ""
+
+#: admin/theme-settings.php:1384
+msgid ""
+"By default, this option is enabled. If you want to disable RSS icon then "
+"simply uncheck this option."
+msgstr ""
+
+#: admin/theme-settings.php:1389
+msgid "Facebook Profile Url"
+msgstr ""
+
+#: admin/theme-settings.php:1390
+msgid "Enter your Facebook profile url here."
+msgstr ""
+
+#: admin/theme-settings.php:1395
+msgid "Twitter Profile Url"
+msgstr ""
+
+#: admin/theme-settings.php:1396
+msgid "Enter your Twitter profile url here."
+msgstr ""
+
+#: admin/theme-settings.php:1401
+msgid "Google+ Profile Url"
+msgstr ""
+
+#: admin/theme-settings.php:1402
+msgid "Enter your Google+ profile url here."
+msgstr ""
+
+#: admin/theme-settings.php:1407
+msgid "Dribbble Profile Url"
+msgstr ""
+
+#: admin/theme-settings.php:1408
+msgid "Enter your Dribbble profile url here."
+msgstr ""
+
+#: admin/theme-settings.php:1413
+msgid "Vimeo Profile Url"
+msgstr ""
+
+#: admin/theme-settings.php:1414
+msgid "Enter your Vimeo profile url here."
+msgstr ""
+
+#: admin/theme-settings.php:1419
+msgid "RSS Link"
+msgstr ""
+
+#: admin/theme-settings.php:1420
+msgid "Enter your RSS link here."
+msgstr ""
+
+#: admin/theme-settings.php:1430
+msgid "SEO Settings"
+msgstr ""
+
+#: admin/theme-settings.php:1433
+msgid "Enable Custom Title"
+msgstr ""
+
+#: admin/theme-settings.php:1434
+msgid ""
+"if you want to create a custom title then simply enable this option and fill "
+"in the custom title field below."
+msgstr ""
+
+#: admin/theme-settings.php:1439
+msgid "Enable Meta Description"
+msgstr ""
+
+#: admin/theme-settings.php:1440
+msgid ""
+"If you would like to use a different description then enable this option and "
+"fill in the custom description field below."
+msgstr ""
+
+#: admin/theme-settings.php:1445
+msgid "Enable Meta Keywords"
+msgstr ""
+
+#: admin/theme-settings.php:1446
+msgid ""
+"If you want to add meta keywords to your header then enable this option and "
+"fill in the custom keywords field below."
+msgstr ""
+
+#: admin/theme-settings.php:1453
+msgid "Custom Title (If enable)"
+msgstr ""
+
+#: admin/theme-settings.php:1454
+msgid "If you have enabled custom titles you can add your custom title here."
+msgstr ""
+
+#: admin/theme-settings.php:1459
+msgid "Meta Description (If enable)"
+msgstr ""
+
+#: admin/theme-settings.php:1460
+msgid ""
+"If you have enabled meta descriptions you can add your custom description "
+"here."
+msgstr ""
+
+#: admin/theme-settings.php:1465
+msgid "Meta Keywords (If enable)"
+msgstr ""
+
+#: admin/theme-settings.php:1466
+msgid ""
+"If you have enabled meta keywords you can add your custom keywords here. "
+"Keywords should be separated by comas. For example: keyword1,keyword2,"
+"keyword3"
+msgstr ""
+
+#: admin/theme-settings.php:1475
+msgid "Code Integration"
+msgstr ""
+
+#: admin/theme-settings.php:1478
+msgid "Enable Header Code"
+msgstr ""
+
+#: admin/theme-settings.php:1479
+msgid "Uncheck this option will disable the header code below from your site."
+msgstr ""
+
+#: admin/theme-settings.php:1484
+msgid "Enable Body Code"
+msgstr ""
+
+#: admin/theme-settings.php:1485
+msgid "Uncheck this option will disable the body code below from your site."
+msgstr ""
+
+#: admin/theme-settings.php:1490
+msgid "Enable Top Code (Single Post)"
+msgstr ""
+
+#: admin/theme-settings.php:1491
+msgid ""
+"Uncheck this option will disable the top code (single post) below from your "
+"site."
+msgstr ""
+
+#: admin/theme-settings.php:1496
+msgid "Enable Bottom Code (Single Post)"
+msgstr ""
+
+#: admin/theme-settings.php:1497
+msgid ""
+"Uncheck this option will disable the bottom code (single post) below from "
+"your site."
+msgstr ""
+
+#: admin/theme-settings.php:1502
+msgid "Header Code"
+msgstr ""
+
+#: admin/theme-settings.php:1503
+msgid ""
+"Add code to the &lt;head&gt; section of your website. If you want to add "
+"javascript or css to all pages, you can place the code here."
+msgstr ""
+
+#: admin/theme-settings.php:1508
+msgid "Body Code"
+msgstr ""
+
+#: admin/theme-settings.php:1509
+msgid ""
+"Add code to the &lt;body&gt; section of your website. If you want to add "
+"tracking code to your website (such as Google Analytics), you can place the "
+"code here."
+msgstr ""
+
+#: admin/theme-settings.php:1514
+msgid "Top Code (single post)"
+msgstr ""
+
+#: admin/theme-settings.php:1515
+msgid ""
+"Add code to the top section of your posts. If you want to add social "
+"bookmarking links to the top of your posts, you can place the code here."
+msgstr ""
+
+#: admin/theme-settings.php:1520
+msgid "Bottom Code (single post)"
+msgstr ""
+
+#: admin/theme-settings.php:1521
+msgid ""
+"Add code to the bottom section of your posts. If you want to add social "
+"bookmarking links to the bottom of your posts (before the comments), you can "
+"place the code here."
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-column-block.php:23
+#: functions/aqua-page-builder/blocks/aq-column-block.php:44
+msgid "Drag block items into this column box"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpcart-block.php:19
+#: functions/mp-widgets.php:30 functions/mp-widgets.php:73
+msgid "Shopping Cart"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpcart-block.php:27
+#: functions/mp-widgets.php:82 functions/mp-widgets.php:259
+#: functions/mp-widgets.php:389
+msgid "Title:"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpcart-block.php:28
+#: functions/mp-widgets.php:83 functions/mp-widgets.php:260
+msgid "Custom Text:"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:117
+#: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:123
+msgid "Layout"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:124
+#: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:130
+msgid "Number of Entries"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:131
+msgid "interval (in millisecond)"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:138
+msgid "Pause on hover?"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:145
+#: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:147
+#: functions/mp-widgets.php:283
+msgid "Taxonomy Filter:"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:152
+#: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:154
+#: functions/mp-widgets.php:269
+msgid "Order Products By:"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:137
+msgid "Additional Functions"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-separator-block.php:47
+msgid ""
+"Use this block to clear the floats between two or more separate blocks "
+"vertically."
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-well-block.php:23
+msgid "Drag block items into this well box"
+msgstr ""
+
+#: functions/aqua-page-builder/blocks/aq-well-block.php:44
+msgid "Drag block items into this Well box"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-block.php:41
+msgid ""
+"function AQ_Block::block should not be accessed directly. Output generated "
+"by the "
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-block.php:62
+msgid "There are no options for this block."
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:25
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:26
+#: functions/aqua-page-builder/functions/aqpb_config.php:14
+#: functions/aqua-page-builder/functions/aqpb_config.php:15
+msgid "Page Builder"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:27
+#: functions/aqua-page-builder/functions/aqpb_config.php:16
+msgid "aq-page-builder"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:264
+msgid ""
+"Drag block items from the left into this area to begin building your "
+"template."
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:500
+msgid "This template is empty"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:597
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:598
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:601
+msgid "Add Page Template"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:601
+msgid "Add Template"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:640
+msgid "Please select your template first!"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:660
+#, php-format
+msgid "You don't have any template yet. Let's %s create %s one!"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:665
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:674
+msgid "Insert Template"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:675
+msgid "Cancel"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:696
+msgid "For more information:"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:697
+msgid ""
+"<a href=\"http://aquagraphite.com/api/documentation/aqua-page-builder\" "
+"target=\"_blank\">Documentation</a>"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:698
+msgid ""
+"<a href=\"http://aquagraphite.com/api/changelog/aqua-page-builder\" target="
+"\"_blank\">Changelog</a>"
+msgstr ""
+
+#: functions/aqua-page-builder/classes/class-aq-page-builder.php:704
+msgid "Overview"
+msgstr ""
+
+#: functions/aqua-page-builder/functions/aqpb_blocks.php:222
+msgid "Drag block items into this box"
+msgstr ""
+
+#: functions/aqua-page-builder/functions/aqpb_config.php:21
+msgid ""
+"The page builder allows you to create custom page templates which you can "
+"later use for your pages."
+msgstr ""
+
+#: functions/aqua-page-builder/functions/aqpb_config.php:22
+msgid ""
+"To use the page builder, start by adding a new template. You can drag and "
+"drop the blocks on the left into the building area on the right of the "
+"screen. Each block has its own unique configuration which you can manually "
+"configure to suit your needs"
+msgstr ""
+
+#: functions/aqua-page-builder/functions/aqpb_config.php:23
+msgid "Please refer to the"
+msgstr ""
+
+#: functions/aqua-page-builder/functions/aqpb_config.php:23
+msgid " documentation page "
+msgstr ""
+
+#: functions/aqua-page-builder/functions/aqpb_config.php:23
+msgid "for more information on how to use this feature."
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:16
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:64
+#: functions/aqua-page-builder/view/view-settings-page.php:87
+msgid "The "
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:64
+msgid " page template has been successfully created"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:72
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:87
+msgid " page template has been updated"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:99
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:122
+msgid "Available Blocks"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:122
+msgid "Deleting"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:127
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:194
+msgid "Template Name"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:203
+msgid "Create Template"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:203
+#: functions/aqua-page-builder/view/view-settings-page.php:264
+msgid "Save Template"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:217
+msgid "Delete Template"
+msgstr ""
+
+#: functions/aqua-page-builder/view/view-settings-page.php:244
+msgid ""
+"To create a custom page template, give it a name above and click Create "
+"Template. Then choose blocks like text, widgets or tabs &amp; toggles from "
+"the left column to add to this template.\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tYou can drag and drop the blocks to put them in the order "
+"you want. Click on the small arrow at the corner of each block to reveal "
+"additional configuration options. You can also resize each block by clicking "
+"on either side of the block (Note that some blocks are not resizable)\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tWhen you have finished building your custom page template, "
+"make sure you click the Save Template button."
+msgstr ""
+
+#: functions/mp-functions.php:31 functions/mp-functions.php:40
+msgid "Advanced Sort"
+msgstr ""
+
+#: functions/mp-functions.php:53
+msgid "By Category"
+msgstr ""
+
+#: functions/mp-functions.php:80
+msgid "Sort By"
+msgstr ""
+
+#: functions/mp-functions.php:93
+msgid "Sort Direction"
+msgstr ""
+
+#: functions/mp-functions.php:415 functions/mp-functions.php:456
+#: functions/mp-functions.php:471
+msgid "Buy Now"
+msgstr ""
+
+#: functions/mp-functions.php:426
+msgid "Out of Stock"
+msgstr ""
+
+#: functions/mp-functions.php:451
+msgid "Choose Option"
+msgstr ""
+
+#: functions/mp-functions.php:454 functions/mp-functions.php:469
+msgid "Add To Cart"
+msgstr ""
+
+#: functions/mp-functions.php:464 functions/mp-functions.php:708
+msgid "Quantity:"
+msgstr ""
+
+#: functions/mp-functions.php:500
+msgid "Price: "
+msgstr ""
+
+#: functions/mp-functions.php:525 functions/mp-functions.php:529
+#: functions/mp-functions.php:540 functions/mp-functions.php:544
+msgid "from"
+msgstr ""
+
+#: functions/mp-functions.php:581 functions/mp-functions.php:634
+msgid "Empty your shopping cart"
+msgstr ""
+
+#: functions/mp-functions.php:581 functions/mp-functions.php:634
+msgid "Empty Cart"
+msgstr ""
+
+#: functions/mp-functions.php:582 functions/mp-functions.php:635
+msgid "Go To Checkout Page"
+msgstr ""
+
+#: functions/mp-functions.php:582 functions/mp-functions.php:635
+msgid "Checkout &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:642
+msgid "There are no items in your cart."
+msgstr ""
+
+#: functions/mp-functions.php:643
+msgid "Browse Products &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:658
+msgid "Review Cart"
+msgstr ""
+
+#: functions/mp-functions.php:659
+msgid "Shipping"
+msgstr ""
+
+#: functions/mp-functions.php:660 mp_cart.php:17
+msgid "Checkout"
+msgstr ""
+
+#: functions/mp-functions.php:661
+msgid "Confirm"
+msgstr ""
+
+#: functions/mp-functions.php:662
+msgid "Thankyou"
+msgstr ""
+
+#: functions/mp-functions.php:706 functions/mp-functions.php:814
+#: functions/mp-functions.php:926
+msgid "Item:"
+msgstr ""
+
+#: functions/mp-functions.php:707 functions/mp-functions.php:816
+#: functions/mp-functions.php:928
+msgid "Price:"
+msgstr ""
+
+#: functions/mp-functions.php:727
+msgid "Remove"
+msgstr ""
+
+#: functions/mp-functions.php:751 functions/mp-functions.php:879
+#: functions/mp-functions.php:955
+msgid "Subtotal:"
+msgstr ""
+
+#: functions/mp-functions.php:756 functions/mp-functions.php:883
+msgid "Discount:"
+msgstr ""
+
+#: functions/mp-functions.php:758
+msgid "Remove Coupon &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:764
+msgid "Have a coupon code?"
+msgstr ""
+
+#: functions/mp-functions.php:766
+msgid "Enter your code:"
+msgstr ""
+
+#: functions/mp-functions.php:768
+msgid "Apply Code &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:782 functions/mp-functions.php:897
+#: functions/mp-functions.php:1462
+msgid "Shipping:"
+msgstr ""
+
+#: functions/mp-functions.php:792 functions/mp-functions.php:906
+#: functions/mp-functions.php:1470
+msgid "Taxes:"
+msgstr ""
+
+#: functions/mp-functions.php:800 functions/mp-functions.php:913
+msgid "Cart Total:"
+msgstr ""
+
+#: functions/mp-functions.php:802
+msgid "Update Cart &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:815 functions/mp-functions.php:927
+msgid "Qty:"
+msgstr ""
+
+#: functions/mp-functions.php:844
+msgid "Product Extra Fields:"
+msgstr ""
+
+#: functions/mp-functions.php:987
+msgid "Choose a Payment Method:"
+msgstr ""
+
+#: functions/mp-functions.php:1013
+#, php-format
+msgid ""
+"Whoops, looks like you skipped a step! Please <a href=\"%s\">go back and try "
+"again</a>."
+msgstr ""
+
+#: functions/mp-functions.php:1021
+msgid "Confirm Payment &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1038
+#, php-format
+msgid "You may track the latest status of your order(s) here:<br />%s"
+msgstr ""
+
+#: functions/mp-functions.php:1064 functions/mp-functions.php:1095
+msgid "Checkout Now &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1069
+msgid "Have a User Account?"
+msgstr ""
+
+#: functions/mp-functions.php:1072
+msgid "Register To Checkout"
+msgstr ""
+
+#: functions/mp-functions.php:1074
+msgid "Checkout Directly"
+msgstr ""
+
+#: functions/mp-functions.php:1080 functions/mp-functions.php:1623
+msgid "Username"
+msgstr ""
+
+#: functions/mp-functions.php:1083 functions/mp-functions.php:1625
+msgid "Password"
+msgstr ""
+
+#: functions/mp-functions.php:1086
+msgid "Login and Checkout &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1090
+msgid "or"
+msgstr ""
+
+#: functions/mp-functions.php:1093
+msgid "Register Now To Checkout &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1131
+msgid "Made a purchase here before?"
+msgstr ""
+
+#: functions/mp-functions.php:1131
+msgid "Login now"
+msgstr ""
+
+#: functions/mp-functions.php:1131
+msgid "to retrieve your saved info!"
+msgstr ""
+
+#: functions/mp-functions.php:1143
+msgid "Enter Your Checkout Information:"
+msgstr ""
+
+#: functions/mp-functions.php:1143
+msgid "Enter Your Shipping Information:"
+msgstr ""
+
+#: functions/mp-functions.php:1147 functions/mp-functions.php:1231
+msgid "Email:"
+msgstr ""
+
+#: functions/mp-functions.php:1154 functions/mp-functions.php:1235
+#: functions/mp-functions.php:1488
+msgid "Full Name:"
+msgstr ""
+
+#: functions/mp-functions.php:1159 functions/mp-functions.php:1268
+#: functions/mp-functions.php:1522
+msgid "Country:"
+msgstr ""
+
+#: functions/mp-functions.php:1169 functions/mp-functions.php:1239
+#: functions/mp-functions.php:1493
+msgid "Address:"
+msgstr ""
+
+#: functions/mp-functions.php:1172
+msgid "Street address, P.O. box, company name, c/o"
+msgstr ""
+
+#: functions/mp-functions.php:1176 functions/mp-functions.php:1245
+#: functions/mp-functions.php:1499
+msgid "Address 2:"
+msgstr ""
+
+#: functions/mp-functions.php:1178
+msgid "Apartment, suite, unit, building, floor, etc."
+msgstr ""
+
+#: functions/mp-functions.php:1182 functions/mp-functions.php:1251
+#: functions/mp-functions.php:1505
+msgid "City:"
+msgstr ""
+
+#: functions/mp-functions.php:1187 functions/mp-functions.php:1257
+#: functions/mp-functions.php:1511
+msgid "State/Province/Region:"
+msgstr ""
+
+#: functions/mp-functions.php:1192 functions/mp-functions.php:1263
+#: functions/mp-functions.php:1517
+msgid "Postal/Zip Code:"
+msgstr ""
+
+#: functions/mp-functions.php:1197 functions/mp-functions.php:1274
+#: functions/mp-functions.php:1528
+msgid "Phone Number:"
+msgstr ""
+
+#: functions/mp-functions.php:1204
+msgid "Special Instructions:"
+msgstr ""
+
+#: functions/mp-functions.php:1218
+msgid "Continue Checkout &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1226 functions/mp-functions.php:1485
+msgid "Shipping Information:"
+msgstr ""
+
+#: functions/mp-functions.php:1227
+msgid "Edit"
+msgstr ""
+
+#: functions/mp-functions.php:1310
+#, php-format
+msgid "Order Details (%s):"
+msgstr ""
+
+#: functions/mp-functions.php:1315
+msgid "Current Status"
+msgstr ""
+
+#: functions/mp-functions.php:1326 functions/mp-functions.php:1329
+#: functions/mp-functions.php:1333
+msgid "Received:"
+msgstr ""
+
+#: functions/mp-functions.php:1328 functions/mp-functions.php:1332
+msgid "Paid:"
+msgstr ""
+
+#: functions/mp-functions.php:1331
+msgid "Shipped:"
+msgstr ""
+
+#: functions/mp-functions.php:1345
+msgid "Payment Information:"
+msgstr ""
+
+#: functions/mp-functions.php:1348
+msgid "Payment Method:"
+msgstr ""
+
+#: functions/mp-functions.php:1352
+msgid "Payment Type:"
+msgstr ""
+
+#: functions/mp-functions.php:1356
+msgid "Transaction ID:"
+msgstr ""
+
+#: functions/mp-functions.php:1360
+msgid "Payment Total:"
+msgstr ""
+
+#: functions/mp-functions.php:1371
+msgid "Order Information:"
+msgstr ""
+
+#: functions/mp-functions.php:1375
+msgid "Item"
+msgstr ""
+
+#: functions/mp-functions.php:1376
+msgid "Quantity"
+msgstr ""
+
+#: functions/mp-functions.php:1377
+msgid "Price"
+msgstr ""
+
+#: functions/mp-functions.php:1378
+msgid "Subtotal"
+msgstr ""
+
+#: functions/mp-functions.php:1379
+msgid "Download"
+msgstr ""
+
+#: functions/mp-functions.php:1411 functions/mp-functions.php:1777
+msgid "Product Personalization:"
+msgstr ""
+
+#: functions/mp-functions.php:1428
+msgid "Download&raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1430
+msgid "Limit Reached"
+msgstr ""
+
+#: functions/mp-functions.php:1432
+msgid "Awaiting Payment"
+msgstr ""
+
+#: functions/mp-functions.php:1442
+msgid "No products could be found for this order"
+msgstr ""
+
+#: functions/mp-functions.php:1454
+msgid "Coupon Discount:"
+msgstr ""
+
+#: functions/mp-functions.php:1476
+msgid "Order Total:"
+msgstr ""
+
+#: functions/mp-functions.php:1535
+msgid "Tracking Number:"
+msgstr ""
+
+#: functions/mp-functions.php:1543
+msgid "Order Notes:"
+msgstr ""
+
+#: functions/mp-functions.php:1551
+msgid "&laquo; Back"
+msgstr ""
+
+#: functions/mp-functions.php:1555
+msgid "Invalid Order ID. Please try again:"
+msgstr ""
+
+#: functions/mp-functions.php:1558 functions/mp-functions.php:1649
+msgid "Enter your 12-digit Order ID number:"
+msgstr ""
+
+#: functions/mp-functions.php:1560 functions/mp-functions.php:1604
+#: functions/mp-functions.php:1641 functions/mp-functions.php:1651
+msgid "Look Up &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1593
+msgid "Your Recent Orders:"
+msgstr ""
+
+#: functions/mp-functions.php:1602
+msgid "Or enter your 12-digit Order ID number:"
+msgstr ""
+
+#: functions/mp-functions.php:1614
+msgid "Have a User Account? Login To View Your Order History:"
+msgstr ""
+
+#: functions/mp-functions.php:1627
+msgid "Login &raquo;"
+msgstr ""
+
+#: functions/mp-functions.php:1639
+msgid "Or, Enter your 12-digit Order ID number:"
+msgstr ""
+
+#: functions/mp-functions.php:1718
+msgid "required"
+msgstr ""
+
+#: functions/mp-functions.php:1720
+msgid "optional"
+msgstr ""
+
+#: functions/mp-widgets.php:28
+msgid ""
+"Shows dynamic shopping cart contents along with a checkout button for your "
+"MarketPress store."
+msgstr ""
+
+#: functions/mp-widgets.php:87 functions/mp-widgets.php:305
+#: functions/mp-widgets.php:406
+msgid "Only show on store pages"
+msgstr ""
+
+#: functions/mp-widgets.php:103
+msgid "Shows a customizable list of products from your MarketPress store."
+msgstr ""
+
+#: functions/mp-widgets.php:105
+msgid "Product List"
+msgstr ""
+
+#: functions/mp-widgets.php:210
+msgid "No Products"
+msgstr ""
+
+#: functions/mp-widgets.php:241 mp_productlist.php:12
+msgid "Our Products"
+msgstr ""
+
+#: functions/mp-widgets.php:264
+msgid "List Settings"
+msgstr ""
+
+#: functions/mp-widgets.php:266
+msgid "Number of Products:"
+msgstr ""
+
+#: functions/mp-widgets.php:271
+msgid "Product Name"
+msgstr ""
+
+#: functions/mp-widgets.php:272
+msgid "Publish Date"
+msgstr ""
+
+#: functions/mp-widgets.php:273
+msgid "Product ID"
+msgstr ""
+
+#: functions/mp-widgets.php:274
+msgid "Product Author"
+msgstr ""
+
+#: functions/mp-widgets.php:275
+msgid "Number of Sales"
+msgstr ""
+
+#: functions/mp-widgets.php:276
+msgid "Product Price"
+msgstr ""
+
+#: functions/mp-widgets.php:277
+msgid "Random"
+msgstr ""
+
+#: functions/mp-widgets.php:279
+msgid "Descending"
+msgstr ""
+
+#: functions/mp-widgets.php:280
+msgid "Ascending"
+msgstr ""
+
+#: functions/mp-widgets.php:285
+msgid "No Filter"
+msgstr ""
+
+#: functions/mp-widgets.php:286
+msgid "Category"
+msgstr ""
+
+#: functions/mp-widgets.php:287
+msgid "Tag"
+msgstr ""
+
+#: functions/mp-widgets.php:289
+msgid "Enter the Slug"
+msgstr ""
+
+#: functions/mp-widgets.php:292
+msgid "Display Settings"
+msgstr ""
+
+#: functions/mp-widgets.php:294
+msgid "Show Thumbnail"
+msgstr ""
+
+#: functions/mp-widgets.php:295
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: functions/mp-widgets.php:298
+msgid "Show Excerpt"
+msgstr ""
+
+#: functions/mp-widgets.php:300
+msgid "Show Price"
+msgstr ""
+
+#: functions/mp-widgets.php:302
+msgid "Show Buy Button"
+msgstr ""
+
+#: functions/mp-widgets.php:316
+msgid ""
+"Your most used product tags in cloud format from your MarketPress store."
+msgstr ""
+
+#: functions/mp-widgets.php:318
+msgid "Product Tag Cloud"
+msgstr ""
+
+#: functions/mp-widgets.php:376
+msgid "Product Tags"
+msgstr ""
+
+#: functions/mp-widgets.php:394
+msgid "Tag Color"
+msgstr ""
+
+#: mp_category.php:34 mp_category.php:57 mp_taxonomy.php:34 mp_taxonomy.php:61
+msgid "Items in "
+msgstr ""
+
+#: mp_category.php:70 mp_tag.php:78 mp_taxonomy.php:74
+msgid "Nothing Found."
+msgstr ""
+
+#: mp_category.php:72 mp_tag.php:80 mp_taxonomy.php:76
+msgid "Perhaps try one of the links below:"
+msgstr ""
+
+#: mp_category.php:74 mp_tag.php:82 mp_taxonomy.php:78
+msgid "Most Used Categories"
+msgstr ""
+
+#: mp_category.php:79 mp_tag.php:87 mp_taxonomy.php:83
+msgid "Or, use the search box below:"
+msgstr ""
+
+#: mp_orderstatus.php:17
+msgid "Track Your Order"
+msgstr ""
+
+#: mp_product.php:30
+msgid "Categorized in "
+msgstr ""
+
+#: mp_tag.php:36 mp_tag.php:65
+msgid "Items tagged with "
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:56
+msgid "View details"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p3/Vcs/PluginUpdateChecker.php:113
+msgid "There is no changelog available."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results"
+msgstr ""
+
+#: search.php:107 search.php:109
+msgid "Read More &raquo;"
+msgstr ""
+
+#: single.php:63
+msgid "Posted By "
+msgstr ""
+
+#: single.php:63
+msgid "In"
+msgstr ""
+
+#: single.php:63
+msgid "Tagged with "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "FlexMarket"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://cp-psource.github.io/flexmarket/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fully Responsive WP Theme For MarketPress (Built With Bootstrap Framework)"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PSOURCE"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/cp-psource"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page (full width)"
+msgstr ""
