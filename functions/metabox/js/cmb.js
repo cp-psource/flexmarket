@@ -49,22 +49,22 @@ jQuery(document).ready(function ($) {
         $(this).after('<div id="picker-' + i + '" style="z-index: 1000; background: #EEE; border: 1px solid #CCC; position: absolute; display: block;"></div>');
         $('#picker-' + i).hide().farbtastic($(this));
     })
-    .focus(function() {
+    .on('focus', function() {
         $(this).next().show();
     })
-    .blur(function() {
+    .on('blur', function() {
         $(this).next().hide();
     });
 
 	/**
 	 * File and image upload handling
 	 */
-	$('.cmb_upload_file').change(function () {
+	$(document).on('change', '.cmb_upload_file', function() {
 		formfield = $(this).attr('name');
 		$('#' + formfield + '_id').val("");
 	});
 
-	$('.cmb_upload_button').live('click', function () {
+	$('.cmb_upload_button').on('click', function () {
 		var buttonLabel;
 		formfield = $(this).prev('input').attr('name');
 		buttonLabel = 'Use as ' + $('label[for=' + formfield + ']').text();
@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
 		return false;
 	});
 
-	$('.cmb_remove_file_button').live('click', function () {
+	$('.cmb_remove_file_button').on('click', function () {
 		formfield = $(this).attr('rel');
 		$('input#' + formfield).val('');
 		$('input#' + formfield + '_id').val('');
