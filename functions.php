@@ -1,5 +1,25 @@
 <?php
 
+	/**
+	 * @@@@@@@@@@@@@@@@@ PS UPDATER 1.3 @@@@@@@@@@@
+	 **/
+	require 'psource/psource-plugin-update/plugin-update-checker.php';
+	use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+	
+	$myUpdateChecker = PucFactory::buildUpdateChecker(
+		'https://github.com/cp-psource/flexmarket',
+		__FILE__,
+		'flexmarket'
+	);
+	
+	//Set the branch that contains the stable release.
+	$myUpdateChecker->setBranch('main');
+
+	/**
+	 * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
+	 **/
+
+
 	if (!function_exists('m413_options')) {
 		// Admin functions
 		require_once(get_template_directory() . '/admin/admin-functions.php');
