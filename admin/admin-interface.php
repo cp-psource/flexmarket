@@ -243,7 +243,7 @@ function m413_load_only() {
            				});
            		});
 
-				jQuery('.group .collapsed input:checkbox').click(unhideHidden);
+				jQuery('.group .collapsed input:checkbox').on('click', unhideHidden);
 
 				function unhideHidden(){
 					if (jQuery(this).attr('checked')) {
@@ -307,13 +307,10 @@ function m413_load_only() {
 
 			jQuery('#m413-popup-save').center();
 			jQuery('#m413-popup-reset').center();
-			jQuery(window).scroll(function() {
-
+			jQuery(window).on('scroll', function() {
 				jQuery('#m413-popup-save').center();
 				jQuery('#m413-popup-reset').center();
-
 			});
-
 
 
 			//AJAX Upload
@@ -412,7 +409,7 @@ jQuery(document).ready( function(){
 
 
 			//Save everything else
-			jQuery('#m413form').submit(function(){
+			jQuery('#m413form').on('submit', function(){
 
 					function newValues() {
 					  var serializedValues = jQuery("#m413form").serialize();

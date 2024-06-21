@@ -3,6 +3,7 @@
 class AQ_MPcart_Block extends AQ_Block {
 
 	public $name;
+	public $block_id;
 	
 	function __construct() {
 		$block_options = array(

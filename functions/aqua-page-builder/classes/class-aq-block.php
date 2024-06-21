@@ -3,9 +3,9 @@
  * The class to register, update and display blocks
  *
  * It provides an easy API for people to add their own blocks
- * to the Aqua Page Builder
+ * to the FlexMarket
  *
- * @package Aqua Page Builder
+ * @package FlexMarket
  */
 
 $aq_registered_blocks = array();

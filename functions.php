@@ -18,7 +18,7 @@
 	require_once(get_template_directory() . '/functions/shortcodes.php');
 
 	if(!class_exists('AQ_Page_Builder')) {
-		//Register Aqua Page Builder 
+		//Register FlexMarket 
 		require_once(get_template_directory() . '/functions/aqua-page-builder/aq-page-builder.php');
 	}
 

@@ -3,7 +3,7 @@
  * AQ_Config class
  *
  * This hold the configurations and settings for the
- * Aqua Page Builder plugin.
+ * FlexMarket plugin.
  * 
  * Contains filter for theme authors to define
  * their own custom configurations

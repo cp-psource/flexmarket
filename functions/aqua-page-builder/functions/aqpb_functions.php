@@ -1,6 +1,6 @@
 <?php
 /**
- * Aqua Page Builder functions
+ * FlexMarket functions
  *
  * This holds the external functions which can be used by the theme
  * Requires the AQ_Page_Builder class

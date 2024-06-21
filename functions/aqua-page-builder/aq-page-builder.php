@@ -1,7 +1,7 @@
 <?php
 /** بسم الله الرحمن الرحيم **
  *
- * Plugin Name: Aqua Page Builder
+ * Plugin Name: FlexMarket
  * Plugin URI: http://aquagraphite.com/page-builder
  * Description: Easily create custom page templates with drag-and-drop interface.
  * Version: 1.0.4
@@ -9,7 +9,7 @@
  * Author URI: http://aquagraphite.com
  * License: GPLV3
  *
- * @package   Aqua Page Builder
+ * @package   FlexMarket
  * @author    Syamil MJ <http://aquagraphite.com>
  * @copyright Copyright (c) 2012, Syamil MJ
  * @license   http://www.gnu.org/copyleft/gpl.html

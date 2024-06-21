@@ -6,7 +6,9 @@
 	Version: 1.2.2 (03/09/2009 22:39:06)
 */
 (function($) {
-	var pasteEventName = ($.browser.msie ? 'paste' : 'input') + ".mask";
+	var ua = navigator.userAgent.toLowerCase();
+	var isIE = ua.indexOf('msie') !== -1 || ua.indexOf('trident') !== -1;
+	var pasteEventName = (isIE ? 'paste' : 'input') + ".mask";
 	var iPhone = (screen.orientation != undefined);
 
 	$.mask = {

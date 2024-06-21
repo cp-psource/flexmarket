@@ -1,5 +1,5 @@
 /**
-Core Styling for Aqua Page Builder
+Core Styling for FlexMarket
 
 If you want to add your own styling, use the aqpb_blocks.css file
 or add your own css file using the hooks
@@ -167,7 +167,7 @@ a:hover, a:active, a:focus { color: #d54e21; }
 		line-height: 15px;
 	}
 #template-shortcode input {
-	width: 120px;
+	width: 160px;
 }	
 	
 /*blocks*/
@@ -288,7 +288,7 @@ a:hover, a:active, a:focus { color: #d54e21; }
 }
 #blocks-archive .block { 
 	margin: 0 10px 10px 0;
-	width: 120px;
+	width: 200px;
 	float: left;
 }
 #blocks-archive .block-settings,

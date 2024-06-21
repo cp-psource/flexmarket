@@ -371,22 +371,22 @@
 						}
 						options.fields = cal
 											.find('input')
-												.bind('keydown', keyDown)
-												.bind('change', change)
-												.bind('blur', blur)
-												.bind('focus', focus);
-						cal.find('span').bind('mousedown', downIncrement);
-						options.selector = cal.find('div.colorpicker_color').bind('mousedown', downSelector);
+												.on('keydown', keyDown)
+												.on('change', change)
+												.on('blur', blur)
+												.on('focus', focus);
+						cal.find('span').on('mousedown', downIncrement);
+						options.selector = cal.find('div.colorpicker_color').on('mousedown', downSelector);
 						options.selectorIndic = options.selector.find('div div');
 						options.hue = cal.find('div.colorpicker_hue div');
-						cal.find('div.colorpicker_hue').bind('mousedown', downHue);
+						cal.find('div.colorpicker_hue').on('mousedown', downHue);
 						options.newColor = cal.find('div.colorpicker_new_color');
 						options.currentColor = cal.find('div.colorpicker_current_color');
 						cal.data('colorpicker', options);
 						cal.find('div.colorpicker_submit')
-							.bind('mouseenter', enterSubmit)
-							.bind('mouseleave', leaveSubmit)
-							.bind('click', clickSubmit);
+							.on('mouseenter', enterSubmit)
+							.on('mouseleave', leaveSubmit)
+							.on('click', clickSubmit);
 						fillRGBFields(options.color, cal.get(0));
 						fillHSBFields(options.color, cal.get(0));
 						fillHexFields(options.color, cal.get(0));
@@ -400,7 +400,7 @@
 								display: 'block'
 							});
 						} else {
-							$(this).bind(options.eventName, show);
+							$(this).on(options.eventName, show);
 						}
 					}
 				});

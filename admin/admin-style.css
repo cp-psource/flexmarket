@@ -10,7 +10,7 @@ border-right:1px solid #D1E5EE;
 #m413_container #content {
 background-color:#fff;
 border-left:1px solid #D1E5EE;
-float:left;
+float:right;
 font-family:"Lucida Grande", Sans-serif;
 margin-left:-1px;
 min-height:550px;
@@ -148,7 +148,7 @@ padding-top:0;
 
 #m413_container #m413-nav {
 float:left;
-position:relative;
+position:absolute;
 width:180px;
 z-index:9999;
 }
@@ -363,7 +363,7 @@ width:60px;
 }
 
 #m413_container input.checkbox,#m413_container input.m413-radio {
-width:30px;
+width: 15px;
 }
 
 #m413_container .controls .checkbox {

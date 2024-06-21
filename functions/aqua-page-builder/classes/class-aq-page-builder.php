@@ -3,7 +3,7 @@
  * AQ_Page_Builder class
  *
  * The core class that generates the functionalities for the
- * Aqua Page Builder. Almost nothing inside in the class should
+ * FlexMarket. Almost nothing inside in the class should
  * be overridden by theme authors
  *
  * @since forever
@@ -175,7 +175,7 @@ if(!class_exists('AQ_Page_Builder')) {
 				register_post_type( 'template', $template_args);
 				
 			} else {
-				add_action('admin_notices', create_function('', "echo '<div id=\"message\" class=\"error\"><p><strong>Aqua Page Builder notice: </strong>'. __('The \"template\" post type already exists, possibly added by the theme or other plugins. Please consult with theme author to consult with this issue', 'framework') .'</p></div>';"));
+				add_action('admin_notices', create_function('', "echo '<div id=\"message\" class=\"error\"><p><strong>FlexMarket notice: </strong>'. __('The \"template\" post type already exists, possibly added by the theme or other plugins. Please consult with theme author to consult with this issue', 'framework') .'</p></div>';"));
 			}
 			
 		}
@@ -315,23 +315,31 @@ if(!class_exists('AQ_Page_Builder')) {
 		 * @since 1.0.0
 		 */
 		function create_template($title) {
-		
 			//wp security layer
 			check_admin_referer( 'create-template', 'create-template-nonce' );
-			
-			//create new template only if title don't yet exist
-			if(!get_page_by_title( $title, 'OBJECT', 'template' )) {
+
+			// Create a new WP_Query to check if the template title already exists
+			$template_query = new WP_Query(array(
+				'post_type' => 'template',
+				'post_status' => 'any',
+				'posts_per_page' => 1,
+				'title' => $title,
+			));
+
+			// Check if the template with the given title already exists
+			if (!$template_query->have_posts()) {
 				//set up template name
 				$template = array(
 					'post_title' => wp_strip_all_tags($title),
 					'post_type' => 'template',
 					'post_status' => 'publish',
 				);
-				
+
 				//create the template
 				$template_id = wp_insert_post($template);
-				
+
 			} else {
+				// If template with the same title already exists, return an error
 				return new WP_Error('duplicate_template', 'Template names must be unique, try a different name');
 			}
 			
@@ -550,7 +558,7 @@ if(!class_exists('AQ_Page_Builder')) {
 			if ( !array_key_exists( 'template', $shortcode_tags ) ) {
 				add_shortcode( 'template', array(&$this, 'do_shortcode') );
 			} else {
-				add_action('admin_notices', create_function('', "echo '<div id=\"message\" class=\"error\"><p><strong>Aqua Page Builder notice: </strong>'. __('The \"[template]\" shortcode already exists, possibly added by the theme or other plugins. Please consult with the theme author to consult with this issue', 'framework') .'</p></div>';"));
+				add_action('admin_notices', create_function('', "echo '<div id=\"message\" class=\"error\"><p><strong>FlexMarket notice: </strong>'. __('The \"[template]\" shortcode already exists, possibly added by the theme or other plugins. Please consult with the theme author to consult with this issue', 'framework') .'</p></div>';"));
 			}
 			
 		}
