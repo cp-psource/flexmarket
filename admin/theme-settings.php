@@ -701,7 +701,7 @@ if (!function_exists('m413_options')) {
 		
 	/**** General Settings **************************************************************************************************/
 
-		$options[] = array( "name" => __('General Settings','flexmarket'),
+		$options[] = array( "name" => __('General Settings', 'flexmarket'),
 					"type" => "heading");
 
 		$options[] = array( "name" => __('Website Logo','flexmarket'),

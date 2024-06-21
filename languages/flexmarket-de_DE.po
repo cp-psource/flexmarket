@@ -1,15 +1,14 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FlexMarket\n"
-"POT-Creation-Date: 2024-06-21 15:23+0200\n"
-"PO-Revision-Date: 2024-06-21 15:23+0200\n"
+"POT-Creation-Date: 2024-06-21 15:21+0200\n"
+"PO-Revision-Date: 2024-06-21 15:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 3.4.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -24,11 +23,11 @@ msgstr ""
 
 #: admin/theme-settings.php:704
 msgid "General Settings"
-msgstr ""
+msgstr "Allgemeine Einstellungen"
 
 #: admin/theme-settings.php:707
 msgid "Website Logo"
-msgstr ""
+msgstr "Webseiten Logo"
 
 #: admin/theme-settings.php:708
 msgid ""
@@ -37,7 +36,7 @@ msgstr ""
 
 #: admin/theme-settings.php:713
 msgid "Favicon"
-msgstr ""
+msgstr "Favicon"
 
 #: admin/theme-settings.php:714
 msgid ""
@@ -49,7 +48,7 @@ msgstr ""
 
 #: admin/theme-settings.php:719
 msgid "Footer Text"
-msgstr ""
+msgstr "Footer Text"
 
 #: admin/theme-settings.php:720
 msgid ""
@@ -58,11 +57,11 @@ msgstr ""
 
 #: admin/theme-settings.php:729
 msgid "Styling Options"
-msgstr ""
+msgstr "Styling Optionen"
 
 #: admin/theme-settings.php:732
 msgid "Header Font"
-msgstr ""
+msgstr "Header Font"
 
 #: admin/theme-settings.php:733
 msgid "Select the font you want to use for header text"
@@ -70,7 +69,7 @@ msgstr ""
 
 #: admin/theme-settings.php:739
 msgid "Body Font"
-msgstr ""
+msgstr "Body Schriftart"
 
 #: admin/theme-settings.php:740
 msgid "Select the font you want to use for body text"
@@ -116,13 +115,13 @@ msgstr ""
 
 #: admin/theme-settings.php:780
 msgid "Header Section"
-msgstr ""
+msgstr "Header Bereich"
 
 #: admin/theme-settings.php:783 admin/theme-settings.php:870
 #: admin/theme-settings.php:1170 admin/theme-settings.php:1261
 #: admin/theme-settings.php:1315
 msgid "Background Color"
-msgstr ""
+msgstr "Hintergrundfarbe"
 
 #: admin/theme-settings.php:784 admin/theme-settings.php:1080
 #: admin/theme-settings.php:1125
@@ -132,7 +131,7 @@ msgstr ""
 #: admin/theme-settings.php:789 admin/theme-settings.php:876
 #: admin/theme-settings.php:1273 admin/theme-settings.php:1327
 msgid "Background Pattern"
-msgstr ""
+msgstr "Hintergrund-Muster"
 
 #: admin/theme-settings.php:790 admin/theme-settings.php:877
 #: admin/theme-settings.php:1092 admin/theme-settings.php:1111
@@ -143,7 +142,7 @@ msgstr ""
 
 #: admin/theme-settings.php:796
 msgid "Enable Sticky Header"
-msgstr ""
+msgstr "Sticky Header aktivieren"
 
 #: admin/theme-settings.php:797
 msgid ""
@@ -208,7 +207,7 @@ msgstr ""
 
 #: admin/theme-settings.php:849
 msgid "Homepage Layout"
-msgstr ""
+msgstr "Homepage Layout"
 
 #: admin/theme-settings.php:852
 msgid "Homepage Template ID"
@@ -231,7 +230,7 @@ msgstr ""
 #: admin/theme-settings.php:864 admin/theme-settings.php:1176
 #: admin/theme-settings.php:1267 admin/theme-settings.php:1321
 msgid "Text Color"
-msgstr ""
+msgstr "Textfarbe"
 
 #: admin/theme-settings.php:865
 msgid "Pick a custom text color for this section."
@@ -255,7 +254,7 @@ msgstr ""
 
 #: admin/theme-settings.php:898 admin/theme-settings.php:984
 msgid "Product Listing Layout"
-msgstr ""
+msgstr "Produkt Listing Layout"
 
 #: admin/theme-settings.php:899 admin/theme-settings.php:985
 msgid "Select the layout you want to display in the product listing page"
@@ -272,7 +271,7 @@ msgstr ""
 
 #: admin/theme-settings.php:936 admin/theme-settings.php:1043
 msgid "Button Color"
-msgstr ""
+msgstr "Button Farbe"
 
 #: admin/theme-settings.php:937
 msgid ""
@@ -338,7 +337,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1076
 msgid "Page Settings"
-msgstr ""
+msgstr "Seiteneinstellungen"
 
 #: admin/theme-settings.php:1079 admin/theme-settings.php:1124
 msgid "Header Section: Background Color"
@@ -378,7 +377,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1121
 msgid "Post Settings"
-msgstr ""
+msgstr "Beitragseinstellungen"
 
 #: admin/theme-settings.php:1166
 msgid "Sidebar Widget Settings"
@@ -395,7 +394,7 @@ msgstr ""
 #: admin/theme-settings.php:1182 admin/theme-settings.php:1280
 #: admin/theme-settings.php:1334
 msgid "Link Color"
-msgstr ""
+msgstr "Linkfarbe"
 
 #: admin/theme-settings.php:1183
 msgid "Pick a custom link color for sidebar widget."
@@ -403,7 +402,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1188 admin/theme-settings.php:1292
 msgid "Icon Color"
-msgstr ""
+msgstr "Icon Farbe"
 
 #: admin/theme-settings.php:1189
 msgid "Select the color of arrow icon in the sidebar widget ."
@@ -411,7 +410,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1203
 msgid "Background Color (hover)"
-msgstr ""
+msgstr "Hintergrundfarbe hover"
 
 #: admin/theme-settings.php:1204
 msgid "Pick a custom background color for sidebar widget (on hover)."
@@ -419,7 +418,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1209
 msgid "Text Color (hover)"
-msgstr ""
+msgstr "Textfarbe (Mouse-Over)"
 
 #: admin/theme-settings.php:1210
 msgid "Pick a custom text color for sidebar widget (on hover)."
@@ -427,7 +426,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1215
 msgid "Link Color (Hover)"
-msgstr ""
+msgstr "Linkfarbe (bei Mauszeigerkontakt)"
 
 #: admin/theme-settings.php:1216
 msgid "Pick a custom link color for sidebar widget (on hover)."
@@ -443,11 +442,11 @@ msgstr ""
 
 #: admin/theme-settings.php:1241
 msgid "Footer Widget Settings"
-msgstr ""
+msgstr "Footer-Widget-Einstellungen"
 
 #: admin/theme-settings.php:1244
 msgid "Show Footer Widget"
-msgstr ""
+msgstr "Anzeige Footer Widget"
 
 #: admin/theme-settings.php:1245
 msgid ""
@@ -457,7 +456,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1250
 msgid "Footer Widget Layout"
-msgstr ""
+msgstr "Widget Layout Fußzeile"
 
 #: admin/theme-settings.php:1251
 msgid "Select the layout you want to display in footer widget."
@@ -477,7 +476,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1286 admin/theme-settings.php:1340
 msgid "Link Color (hover)"
-msgstr ""
+msgstr "Linkfarbe (Hover)"
 
 #: admin/theme-settings.php:1287
 msgid "Pick a custom link hover color for footer widget."
@@ -489,7 +488,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1311
 msgid "Footer Section"
-msgstr ""
+msgstr "Footer Bereich"
 
 #: admin/theme-settings.php:1316
 msgid "Pick a custom background color for footer section."
@@ -509,11 +508,11 @@ msgstr ""
 
 #: admin/theme-settings.php:1350
 msgid "Social Icon"
-msgstr ""
+msgstr "Social Media Symbol"
 
 #: admin/theme-settings.php:1353
 msgid "Show Facebook Icon"
-msgstr ""
+msgstr "Facebook-Icon anzeigen"
 
 #: admin/theme-settings.php:1354
 msgid ""
@@ -523,7 +522,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1359
 msgid "Show Twitter Icon"
-msgstr ""
+msgstr "Twitter-Symbol anzeigen"
 
 #: admin/theme-settings.php:1360
 msgid ""
@@ -533,7 +532,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1365
 msgid "Show Google+ Icon"
-msgstr ""
+msgstr "Google+ Icon anzeigen"
 
 #: admin/theme-settings.php:1366
 msgid ""
@@ -543,7 +542,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1371
 msgid "Show Dribbble Icon"
-msgstr ""
+msgstr "Dribbble-Icon anzeigen"
 
 #: admin/theme-settings.php:1372
 msgid ""
@@ -563,7 +562,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1383
 msgid "Show RSS Icon"
-msgstr ""
+msgstr "RSS-Icon anzeigen"
 
 #: admin/theme-settings.php:1384
 msgid ""
@@ -573,7 +572,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1389
 msgid "Facebook Profile Url"
-msgstr ""
+msgstr "Facebook Profil-URL"
 
 #: admin/theme-settings.php:1390
 msgid "Enter your Facebook profile url here."
@@ -581,7 +580,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1395
 msgid "Twitter Profile Url"
-msgstr ""
+msgstr "Twitter Profil-URL"
 
 #: admin/theme-settings.php:1396
 msgid "Enter your Twitter profile url here."
@@ -589,7 +588,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1401
 msgid "Google+ Profile Url"
-msgstr ""
+msgstr "URL des LinkedIn-Profils"
 
 #: admin/theme-settings.php:1402
 msgid "Enter your Google+ profile url here."
@@ -597,7 +596,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1407
 msgid "Dribbble Profile Url"
-msgstr ""
+msgstr "Dribbble Profil-URL"
 
 #: admin/theme-settings.php:1408
 msgid "Enter your Dribbble profile url here."
@@ -613,7 +612,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1419
 msgid "RSS Link"
-msgstr ""
+msgstr "RSS Link"
 
 #: admin/theme-settings.php:1420
 msgid "Enter your RSS link here."
@@ -621,11 +620,11 @@ msgstr ""
 
 #: admin/theme-settings.php:1430
 msgid "SEO Settings"
-msgstr ""
+msgstr "SEO Einstellungen"
 
 #: admin/theme-settings.php:1433
 msgid "Enable Custom Title"
-msgstr ""
+msgstr "Benutzerdefinierten Titel aktivieren"
 
 #: admin/theme-settings.php:1434
 msgid ""
@@ -670,6 +669,8 @@ msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr ""
+"Wenn Sie Meta-Beschreibungen aktiviert haben, können Sie hier Ihre "
+"benutzerdefinierte Beschreibung hinzufügen."
 
 #: admin/theme-settings.php:1465
 msgid "Meta Keywords (If enable)"
@@ -688,7 +689,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1478
 msgid "Enable Header Code"
-msgstr ""
+msgstr "Aktiviere Header-Code"
 
 #: admin/theme-settings.php:1479
 msgid "Uncheck this option will disable the header code below from your site."
@@ -696,7 +697,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1484
 msgid "Enable Body Code"
-msgstr ""
+msgstr "Aktivieren Body-Code"
 
 #: admin/theme-settings.php:1485
 msgid "Uncheck this option will disable the body code below from your site."
@@ -724,7 +725,7 @@ msgstr ""
 
 #: admin/theme-settings.php:1502
 msgid "Header Code"
-msgstr ""
+msgstr "Header Code"
 
 #: admin/theme-settings.php:1503
 msgid ""
@@ -767,33 +768,33 @@ msgstr ""
 #: functions/aqua-page-builder/blocks/aq-column-block.php:23
 #: functions/aqua-page-builder/blocks/aq-column-block.php:44
 msgid "Drag block items into this column box"
-msgstr ""
+msgstr "Ziehen Sie die Block Elemente in das Spalten Feld"
 
 #: functions/aqua-page-builder/blocks/aq-mpcart-block.php:19
 #: functions/mp-widgets.php:30 functions/mp-widgets.php:73
 msgid "Shopping Cart"
-msgstr ""
+msgstr "Warenkorb"
 
 #: functions/aqua-page-builder/blocks/aq-mpcart-block.php:27
 #: functions/mp-widgets.php:82 functions/mp-widgets.php:259
 #: functions/mp-widgets.php:389
 msgid "Title:"
-msgstr ""
+msgstr "Titel:"
 
 #: functions/aqua-page-builder/blocks/aq-mpcart-block.php:28
 #: functions/mp-widgets.php:83 functions/mp-widgets.php:260
 msgid "Custom Text:"
-msgstr ""
+msgstr "Benutzerdefinierter Text:"
 
 #: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:117
 #: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:123
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:124
 #: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:130
 msgid "Number of Entries"
-msgstr ""
+msgstr "Anzahl Einträge"
 
 #: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:131
 msgid "interval (in millisecond)"
@@ -801,7 +802,7 @@ msgstr ""
 
 #: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:138
 msgid "Pause on hover?"
-msgstr ""
+msgstr "Pausieren bei Mausberührung?"
 
 #: functions/aqua-page-builder/blocks/aq-mpproductcarousel-block.php:145
 #: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:147
@@ -817,13 +818,15 @@ msgstr ""
 
 #: functions/aqua-page-builder/blocks/aq-mpproductgrid-block.php:137
 msgid "Additional Functions"
-msgstr ""
+msgstr "Zusätzliche Funktionen"
 
 #: functions/aqua-page-builder/blocks/aq-separator-block.php:47
 msgid ""
 "Use this block to clear the floats between two or more separate blocks "
 "vertically."
 msgstr ""
+"Verwenden Sie diesen Block um die Floats zwischen zwei oder mehr separaten "
+"Blöcken vertikal zu unterbrechen."
 
 #: functions/aqua-page-builder/blocks/aq-well-block.php:23
 msgid "Drag block items into this well box"
@@ -838,83 +841,92 @@ msgid ""
 "function AQ_Block::block should not be accessed directly. Output generated "
 "by the "
 msgstr ""
+"Funktion AQ_Block :: Auf diesen Block sollte nicht direkt zugegriffen "
+"werden. Output erzeugt durch"
 
 #: functions/aqua-page-builder/classes/class-aq-block.php:62
 msgid "There are no options for this block."
-msgstr ""
+msgstr "Es gibt keine Optionen für diesen Block."
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:25
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:26
 #: functions/aqua-page-builder/functions/aqpb_config.php:14
 #: functions/aqua-page-builder/functions/aqpb_config.php:15
 msgid "Page Builder"
-msgstr ""
+msgstr "Page Builder"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:27
 #: functions/aqua-page-builder/functions/aqpb_config.php:16
 msgid "aq-page-builder"
-msgstr ""
+msgstr "aq-page-builder"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:264
 msgid ""
 "Drag block items from the left into this area to begin building your "
 "template."
 msgstr ""
+"Ziehe die Blockelemente aus dem linken in diesen Bereich um mit dem Aufbau "
+"der Vorlage zu beginnen."
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:500
 msgid "This template is empty"
-msgstr ""
+msgstr "Diese vorlage ist leer"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:597
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:598
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:601
 msgid "Add Page Template"
-msgstr ""
+msgstr "Neue Seitenvorlage hinzufügen"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:601
 msgid "Add Template"
-msgstr ""
+msgstr "Vorlage hinzufügen"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:640
 msgid "Please select your template first!"
-msgstr ""
+msgstr "Bitte wählen Sie zuerst Ihre Vorlage!"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:660
 #, php-format
 msgid "You don't have any template yet. Let's %s create %s one!"
-msgstr ""
+msgstr "Sie haben noch keine Vorlage. %s Erstellen%s Sie zunächst eine!"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:665
 msgid "Choose Your Page Template"
-msgstr ""
+msgstr "Wählen Sie Ihre Vorlage"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:674
 msgid "Insert Template"
-msgstr ""
+msgstr "Vorlage anlegen"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:675
+#, fuzzy
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:696
 msgid "For more information:"
-msgstr ""
+msgstr "Für weitere Informationen:"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:697
 msgid ""
 "<a href=\"http://aquagraphite.com/api/documentation/aqua-page-builder\" "
 "target=\"_blank\">Documentation</a>"
 msgstr ""
+"<a href=„http://aquagraphite.com/api/documentation/aqua-page-builder“ "
+"target=„_blank“>Dokumentation</a>"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:698
 msgid ""
 "<a href=\"http://aquagraphite.com/api/changelog/aqua-page-builder\" target="
 "\"_blank\">Changelog</a>"
 msgstr ""
+"<a href=„http://aquagraphite.com/api/changelog/aqua-page-builder“ "
+"target=„_blank“>Changelog</a>"
 
 #: functions/aqua-page-builder/classes/class-aq-page-builder.php:704
 msgid "Overview"
-msgstr ""
+msgstr "Übersicht"
 
 #: functions/aqua-page-builder/functions/aqpb_blocks.php:222
 msgid "Drag block items into this box"
@@ -925,6 +937,8 @@ msgid ""
 "The page builder allows you to create custom page templates which you can "
 "later use for your pages."
 msgstr ""
+"Der Page Builder erlaubt Dir, eigene Seitenvorlagen zu erstellen, die Du "
+"später auf Deinen Seiten einfügen kannst."
 
 #: functions/aqua-page-builder/functions/aqpb_config.php:22
 msgid ""
@@ -933,31 +947,35 @@ msgid ""
 "screen. Each block has its own unique configuration which you can manually "
 "configure to suit your needs"
 msgstr ""
+"Um den Page Builder zu nutzen, beginnen Sie mit dem Hinzufügen einer neuen "
+"Vorlage. Sie können mittels Drag-and-Drop Blöcke von der linken Liste in den "
+"rechten Bereich ziehen. Jeder Block lässt sich individuell Ihren "
+"Bedürfnissen anpassen."
 
 #: functions/aqua-page-builder/functions/aqpb_config.php:23
 msgid "Please refer to the"
-msgstr ""
+msgstr "Sehen Sie auch in der "
 
 #: functions/aqua-page-builder/functions/aqpb_config.php:23
 msgid " documentation page "
-msgstr ""
+msgstr "Dokumentation"
 
 #: functions/aqua-page-builder/functions/aqpb_config.php:23
 msgid "for more information on how to use this feature."
-msgstr ""
+msgstr "für weitere Informationen zu diesem Feature."
 
 #: functions/aqua-page-builder/view/view-settings-page.php:16
 msgid "Cheatin&#8217; uh?"
-msgstr ""
+msgstr "Schummeln&#8217; was?"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:64
 #: functions/aqua-page-builder/view/view-settings-page.php:87
 msgid "The "
-msgstr ""
+msgstr "Das"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:64
 msgid " page template has been successfully created"
-msgstr ""
+msgstr "Seitenvorlage wurde erfolgreich erstellt"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:72
 msgid "Sorry, the operation was unsuccessful for the following reason(s): "
@@ -965,40 +983,40 @@ msgstr ""
 
 #: functions/aqua-page-builder/view/view-settings-page.php:87
 msgid " page template has been updated"
-msgstr ""
+msgstr "Seitenvorlage wurde erfolgreich aktualisiert"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:99
 msgid "The template has been successfully deleted"
-msgstr ""
+msgstr "Template wurden erfolgreich gelöscht."
 
 #: functions/aqua-page-builder/view/view-settings-page.php:122
 msgid "Available Blocks"
-msgstr ""
+msgstr "Verfügbare Blöcke"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:122
 msgid "Deleting"
-msgstr ""
+msgstr "Löschen"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:127
 msgid "Need help? Use the Help tab in the upper right of your screen."
-msgstr ""
+msgstr "Hilfe benötigt? Benutzen Sie das Hilfe Tab in der rechten oberen Ecke."
 
 #: functions/aqua-page-builder/view/view-settings-page.php:194
 msgid "Template Name"
-msgstr ""
+msgstr "Template Name"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:203
 msgid "Create Template"
-msgstr ""
+msgstr "Vorlage erstellen"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:203
 #: functions/aqua-page-builder/view/view-settings-page.php:264
 msgid "Save Template"
-msgstr ""
+msgstr "Vorlage speichern"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:217
 msgid "Delete Template"
-msgstr ""
+msgstr "Vorlage löschen"
 
 #: functions/aqua-page-builder/view/view-settings-page.php:244
 msgid ""
@@ -1021,45 +1039,45 @@ msgstr ""
 
 #: functions/mp-functions.php:53
 msgid "By Category"
-msgstr ""
+msgstr "Nach Kategorie"
 
 #: functions/mp-functions.php:80
 msgid "Sort By"
-msgstr ""
+msgstr "Sortieren nach"
 
 #: functions/mp-functions.php:93
 msgid "Sort Direction"
-msgstr ""
+msgstr "Sortierrichtung"
 
 #: functions/mp-functions.php:415 functions/mp-functions.php:456
 #: functions/mp-functions.php:471
 msgid "Buy Now"
-msgstr ""
+msgstr "Jetzt kaufen"
 
 #: functions/mp-functions.php:426
 msgid "Out of Stock"
-msgstr ""
+msgstr "Ausverkauft"
 
 #: functions/mp-functions.php:451
 msgid "Choose Option"
-msgstr ""
+msgstr "Option auswählen"
 
 #: functions/mp-functions.php:454 functions/mp-functions.php:469
 msgid "Add To Cart"
-msgstr ""
+msgstr "In den Warenkorb"
 
 #: functions/mp-functions.php:464 functions/mp-functions.php:708
 msgid "Quantity:"
-msgstr ""
+msgstr "Menge:"
 
 #: functions/mp-functions.php:500
 msgid "Price: "
-msgstr ""
+msgstr "Preis: "
 
 #: functions/mp-functions.php:525 functions/mp-functions.php:529
 #: functions/mp-functions.php:540 functions/mp-functions.php:544
 msgid "from"
-msgstr ""
+msgstr "von"
 
 #: functions/mp-functions.php:581 functions/mp-functions.php:634
 msgid "Empty your shopping cart"
@@ -1067,7 +1085,7 @@ msgstr ""
 
 #: functions/mp-functions.php:581 functions/mp-functions.php:634
 msgid "Empty Cart"
-msgstr ""
+msgstr "Warenkorb leeren"
 
 #: functions/mp-functions.php:582 functions/mp-functions.php:635
 msgid "Go To Checkout Page"
@@ -1079,7 +1097,7 @@ msgstr ""
 
 #: functions/mp-functions.php:642
 msgid "There are no items in your cart."
-msgstr ""
+msgstr "Es befinden sich keine Artikel in Ihrem Warenkorb."
 
 #: functions/mp-functions.php:643
 msgid "Browse Products &raquo;"
@@ -1087,46 +1105,47 @@ msgstr ""
 
 #: functions/mp-functions.php:658
 msgid "Review Cart"
-msgstr ""
+msgstr "Einkaufswagen prüfen"
 
 #: functions/mp-functions.php:659
+#, fuzzy
 msgid "Shipping"
-msgstr ""
+msgstr "Versand"
 
 #: functions/mp-functions.php:660 mp_cart.php:17
 msgid "Checkout"
-msgstr ""
+msgstr "Kasse"
 
 #: functions/mp-functions.php:661
 msgid "Confirm"
-msgstr ""
+msgstr "Bestätigen"
 
 #: functions/mp-functions.php:662
 msgid "Thankyou"
-msgstr ""
+msgstr "Danke"
 
 #: functions/mp-functions.php:706 functions/mp-functions.php:814
 #: functions/mp-functions.php:926
 msgid "Item:"
-msgstr ""
+msgstr "Artikel:"
 
 #: functions/mp-functions.php:707 functions/mp-functions.php:816
 #: functions/mp-functions.php:928
 msgid "Price:"
-msgstr ""
+msgstr "Preis:"
 
 #: functions/mp-functions.php:727
 msgid "Remove"
-msgstr ""
+msgstr "Entfernen"
 
 #: functions/mp-functions.php:751 functions/mp-functions.php:879
 #: functions/mp-functions.php:955
 msgid "Subtotal:"
-msgstr ""
+msgstr "Zwischensumme:"
 
 #: functions/mp-functions.php:756 functions/mp-functions.php:883
 msgid "Discount:"
-msgstr ""
+msgstr "Rabatt:"
 
 #: functions/mp-functions.php:758
 msgid "Remove Coupon &raquo;"
@@ -1134,7 +1153,7 @@ msgstr ""
 
 #: functions/mp-functions.php:764
 msgid "Have a coupon code?"
-msgstr ""
+msgstr "Haben Sie einen Gutscheincode?"
 
 #: functions/mp-functions.php:766
 msgid "Enter your code:"
@@ -1147,16 +1166,16 @@ msgstr ""
 #: functions/mp-functions.php:782 functions/mp-functions.php:897
 #: functions/mp-functions.php:1462
 msgid "Shipping:"
-msgstr ""
+msgstr "Versand:"
 
 #: functions/mp-functions.php:792 functions/mp-functions.php:906
 #: functions/mp-functions.php:1470
 msgid "Taxes:"
-msgstr ""
+msgstr "MwSt:"
 
 #: functions/mp-functions.php:800 functions/mp-functions.php:913
 msgid "Cart Total:"
-msgstr ""
+msgstr "Warenkorb-Summe:"
 
 #: functions/mp-functions.php:802
 msgid "Update Cart &raquo;"
@@ -1164,7 +1183,7 @@ msgstr ""
 
 #: functions/mp-functions.php:815 functions/mp-functions.php:927
 msgid "Qty:"
-msgstr ""
+msgstr "Menge:"
 
 #: functions/mp-functions.php:844
 msgid "Product Extra Fields:"
@@ -1208,11 +1227,12 @@ msgstr ""
 
 #: functions/mp-functions.php:1080 functions/mp-functions.php:1623
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: functions/mp-functions.php:1083 functions/mp-functions.php:1625
+#, fuzzy
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: functions/mp-functions.php:1086
 msgid "Login and Checkout &raquo;"
@@ -1220,7 +1240,7 @@ msgstr ""
 
 #: functions/mp-functions.php:1090
 msgid "or"
-msgstr ""
+msgstr "oder"
 
 #: functions/mp-functions.php:1093
 msgid "Register Now To Checkout &raquo;"
@@ -1232,7 +1252,7 @@ msgstr ""
 
 #: functions/mp-functions.php:1131
 msgid "Login now"
-msgstr ""
+msgstr "Jetzt anmelden"
 
 #: functions/mp-functions.php:1131
 msgid "to retrieve your saved info!"
@@ -1248,22 +1268,22 @@ msgstr ""
 
 #: functions/mp-functions.php:1147 functions/mp-functions.php:1231
 msgid "Email:"
-msgstr ""
+msgstr "E-Mail:"
 
 #: functions/mp-functions.php:1154 functions/mp-functions.php:1235
 #: functions/mp-functions.php:1488
 msgid "Full Name:"
-msgstr ""
+msgstr "Voller Name:"
 
 #: functions/mp-functions.php:1159 functions/mp-functions.php:1268
 #: functions/mp-functions.php:1522
 msgid "Country:"
-msgstr ""
+msgstr "Land:"
 
 #: functions/mp-functions.php:1169 functions/mp-functions.php:1239
 #: functions/mp-functions.php:1493
 msgid "Address:"
-msgstr ""
+msgstr "Adresse:"
 
 #: functions/mp-functions.php:1172
 msgid "Street address, P.O. box, company name, c/o"
@@ -1272,7 +1292,7 @@ msgstr ""
 #: functions/mp-functions.php:1176 functions/mp-functions.php:1245
 #: functions/mp-functions.php:1499
 msgid "Address 2:"
-msgstr ""
+msgstr "Adresse 2:"
 
 #: functions/mp-functions.php:1178
 msgid "Apartment, suite, unit, building, floor, etc."
@@ -1281,7 +1301,7 @@ msgstr ""
 #: functions/mp-functions.php:1182 functions/mp-functions.php:1251
 #: functions/mp-functions.php:1505
 msgid "City:"
-msgstr ""
+msgstr "Stadt:"
 
 #: functions/mp-functions.php:1187 functions/mp-functions.php:1257
 #: functions/mp-functions.php:1511
@@ -1296,7 +1316,7 @@ msgstr ""
 #: functions/mp-functions.php:1197 functions/mp-functions.php:1274
 #: functions/mp-functions.php:1528
 msgid "Phone Number:"
-msgstr ""
+msgstr "Telefonnummer:"
 
 #: functions/mp-functions.php:1204
 msgid "Special Instructions:"
@@ -1304,15 +1324,15 @@ msgstr ""
 
 #: functions/mp-functions.php:1218
 msgid "Continue Checkout &raquo;"
-msgstr ""
+msgstr "Weiter zur Kasse &raquo;"
 
 #: functions/mp-functions.php:1226 functions/mp-functions.php:1485
 msgid "Shipping Information:"
-msgstr ""
+msgstr "Versandinformationen:"
 
 #: functions/mp-functions.php:1227
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: functions/mp-functions.php:1310
 #, php-format
@@ -1321,20 +1341,20 @@ msgstr ""
 
 #: functions/mp-functions.php:1315
 msgid "Current Status"
-msgstr ""
+msgstr "Aktueller Status"
 
 #: functions/mp-functions.php:1326 functions/mp-functions.php:1329
 #: functions/mp-functions.php:1333
 msgid "Received:"
-msgstr ""
+msgstr "Erhalten:"
 
 #: functions/mp-functions.php:1328 functions/mp-functions.php:1332
 msgid "Paid:"
-msgstr ""
+msgstr "Bezahlt:"
 
 #: functions/mp-functions.php:1331
 msgid "Shipped:"
-msgstr ""
+msgstr "Versendet:"
 
 #: functions/mp-functions.php:1345
 msgid "Payment Information:"
@@ -1342,15 +1362,15 @@ msgstr ""
 
 #: functions/mp-functions.php:1348
 msgid "Payment Method:"
-msgstr ""
+msgstr "Zahlungsmethode:"
 
 #: functions/mp-functions.php:1352
 msgid "Payment Type:"
-msgstr ""
+msgstr "Zahlungsart:"
 
 #: functions/mp-functions.php:1356
 msgid "Transaction ID:"
-msgstr ""
+msgstr "Transaktions-ID:"
 
 #: functions/mp-functions.php:1360
 msgid "Payment Total:"
@@ -1358,27 +1378,28 @@ msgstr ""
 
 #: functions/mp-functions.php:1371
 msgid "Order Information:"
-msgstr ""
+msgstr "Bestellinformationen:"
 
 #: functions/mp-functions.php:1375
 msgid "Item"
-msgstr ""
+msgstr "Artikel"
 
 #: functions/mp-functions.php:1376
 msgid "Quantity"
-msgstr ""
+msgstr "Menge"
 
 #: functions/mp-functions.php:1377
 msgid "Price"
-msgstr ""
+msgstr "Preis"
 
 #: functions/mp-functions.php:1378
+#, fuzzy
 msgid "Subtotal"
-msgstr ""
+msgstr "Zwischensumme"
 
 #: functions/mp-functions.php:1379
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: functions/mp-functions.php:1411 functions/mp-functions.php:1777
 msgid "Product Personalization:"
@@ -1394,7 +1415,7 @@ msgstr ""
 
 #: functions/mp-functions.php:1432
 msgid "Awaiting Payment"
-msgstr ""
+msgstr "Zahlung wird erwartet"
 
 #: functions/mp-functions.php:1442
 msgid "No products could be found for this order"
@@ -1402,23 +1423,23 @@ msgstr ""
 
 #: functions/mp-functions.php:1454
 msgid "Coupon Discount:"
-msgstr ""
+msgstr "Rabattgutschein (%d %%):"
 
 #: functions/mp-functions.php:1476
 msgid "Order Total:"
-msgstr ""
+msgstr "Gesamtsumme:"
 
 #: functions/mp-functions.php:1535
 msgid "Tracking Number:"
-msgstr ""
+msgstr "Sendungsnummer:"
 
 #: functions/mp-functions.php:1543
 msgid "Order Notes:"
-msgstr ""
+msgstr "Bestellung Notizen:"
 
 #: functions/mp-functions.php:1551
 msgid "&laquo; Back"
-msgstr ""
+msgstr "&laquo; Zurück"
 
 #: functions/mp-functions.php:1555
 msgid "Invalid Order ID. Please try again:"
@@ -1447,7 +1468,7 @@ msgstr ""
 
 #: functions/mp-functions.php:1627
 msgid "Login &raquo;"
-msgstr ""
+msgstr "Anmelden &raquo;"
 
 #: functions/mp-functions.php:1639
 msgid "Or, Enter your 12-digit Order ID number:"
@@ -1455,11 +1476,11 @@ msgstr ""
 
 #: functions/mp-functions.php:1718
 msgid "required"
-msgstr ""
+msgstr "erforderlich"
 
 #: functions/mp-functions.php:1720
 msgid "optional"
-msgstr ""
+msgstr "optional"
 
 #: functions/mp-widgets.php:28
 msgid ""
@@ -1478,71 +1499,71 @@ msgstr ""
 
 #: functions/mp-widgets.php:105
 msgid "Product List"
-msgstr ""
+msgstr "Produkt-Liste"
 
 #: functions/mp-widgets.php:210
 msgid "No Products"
-msgstr ""
+msgstr "Keine Produkte"
 
 #: functions/mp-widgets.php:241 mp_productlist.php:12
 msgid "Our Products"
-msgstr ""
+msgstr "Unsere Produkte"
 
 #: functions/mp-widgets.php:264
 msgid "List Settings"
-msgstr ""
+msgstr "Einstellungen auflisten"
 
 #: functions/mp-widgets.php:266
 msgid "Number of Products:"
-msgstr ""
+msgstr "Anzahl der Produkte:"
 
 #: functions/mp-widgets.php:271
 msgid "Product Name"
-msgstr ""
+msgstr "Produktname"
 
 #: functions/mp-widgets.php:272
 msgid "Publish Date"
-msgstr ""
+msgstr "Veröffentlichungsdatum"
 
 #: functions/mp-widgets.php:273
 msgid "Product ID"
-msgstr ""
+msgstr "Produkt-ID"
 
 #: functions/mp-widgets.php:274
 msgid "Product Author"
-msgstr ""
+msgstr "Produktautor"
 
 #: functions/mp-widgets.php:275
 msgid "Number of Sales"
-msgstr ""
+msgstr "Anzahl der Verkäufe"
 
 #: functions/mp-widgets.php:276
 msgid "Product Price"
-msgstr ""
+msgstr "Produktpreis"
 
 #: functions/mp-widgets.php:277
 msgid "Random"
-msgstr ""
+msgstr "Zufällig"
 
 #: functions/mp-widgets.php:279
 msgid "Descending"
-msgstr ""
+msgstr "Absteigend"
 
 #: functions/mp-widgets.php:280
 msgid "Ascending"
-msgstr ""
+msgstr "Aufsteigend"
 
 #: functions/mp-widgets.php:285
 msgid "No Filter"
-msgstr ""
+msgstr "Kein Filter"
 
 #: functions/mp-widgets.php:286
 msgid "Category"
-msgstr ""
+msgstr "Kategorie"
 
 #: functions/mp-widgets.php:287
 msgid "Tag"
-msgstr ""
+msgstr "Schlagwort"
 
 #: functions/mp-widgets.php:289
 msgid "Enter the Slug"
@@ -1550,27 +1571,27 @@ msgstr ""
 
 #: functions/mp-widgets.php:292
 msgid "Display Settings"
-msgstr ""
+msgstr "Anzeigeneinstellungen"
 
 #: functions/mp-widgets.php:294
 msgid "Show Thumbnail"
-msgstr ""
+msgstr "Vorschaubild anzeigen"
 
 #: functions/mp-widgets.php:295
 msgid "Thumbnail Size:"
-msgstr ""
+msgstr "Vorschaubildgröße:"
 
 #: functions/mp-widgets.php:298
 msgid "Show Excerpt"
-msgstr ""
+msgstr "Textauszug anzeigen"
 
 #: functions/mp-widgets.php:300
 msgid "Show Price"
-msgstr ""
+msgstr "Preis anzeigen"
 
 #: functions/mp-widgets.php:302
 msgid "Show Buy Button"
-msgstr ""
+msgstr "\"Kaufen\"-Button anzeigen"
 
 #: functions/mp-widgets.php:316
 msgid ""
@@ -1579,15 +1600,15 @@ msgstr ""
 
 #: functions/mp-widgets.php:318
 msgid "Product Tag Cloud"
-msgstr ""
+msgstr "Produkt-Schlagwörter"
 
 #: functions/mp-widgets.php:376
 msgid "Product Tags"
-msgstr ""
+msgstr "Produkt-Schlagwörter"
 
 #: functions/mp-widgets.php:394
 msgid "Tag Color"
-msgstr ""
+msgstr "Tag Farbe"
 
 #: mp_category.php:34 mp_category.php:57 mp_taxonomy.php:34 mp_taxonomy.php:61
 msgid "Items in "
@@ -1595,7 +1616,7 @@ msgstr ""
 
 #: mp_category.php:70 mp_tag.php:78 mp_taxonomy.php:74
 msgid "Nothing Found."
-msgstr ""
+msgstr "NIchts gefunden."
 
 #: mp_category.php:72 mp_tag.php:80 mp_taxonomy.php:76
 msgid "Perhaps try one of the links below:"
@@ -1603,7 +1624,7 @@ msgstr ""
 
 #: mp_category.php:74 mp_tag.php:82 mp_taxonomy.php:78
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Meistgenutzte Kategorien"
 
 #: mp_category.php:79 mp_tag.php:87 mp_taxonomy.php:83
 msgid "Or, use the search box below:"
@@ -1611,7 +1632,7 @@ msgstr ""
 
 #: mp_orderstatus.php:17
 msgid "Track Your Order"
-msgstr ""
+msgstr "Bestellung verfolgen"
 
 #: mp_product.php:30
 msgid "Categorized in "
@@ -1623,63 +1644,63 @@ msgstr ""
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:56
 msgid "View details"
-msgstr ""
+msgstr "Details anzeigen"
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:79
 #, php-format
 msgid "More information about %s"
-msgstr ""
+msgstr "Mehr Informationen über %s"
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:130
 msgid "Check for updates"
-msgstr ""
+msgstr "Auf Aktualisierungen prüfen"
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:217
 #, php-format
 msgctxt "the plugin title"
 msgid "The %s plugin is up to date."
-msgstr ""
+msgstr "Das %s Plugin ist aktuell."
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:219
 #, php-format
 msgctxt "the plugin title"
 msgid "A new version of the %s plugin is available."
-msgstr ""
+msgstr "Eine neue Version des Plugins %s ist verfügbar."
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:221
 #, php-format
 msgctxt "the plugin title"
 msgid "Could not determine if updates are available for %s."
-msgstr ""
+msgstr "Konnte nicht prüfen, ob Updates für das Plugin %s verfügbar sind."
 
 #: psource/psource-plugin-update/Puc/v5p3/Plugin/Ui.php:227
 #, php-format
 msgid "Unknown update checker status \"%s\""
-msgstr ""
+msgstr "Unbekannter Status für Aktualisierungscheck \"%s\""
 
 #: psource/psource-plugin-update/Puc/v5p3/Vcs/PluginUpdateChecker.php:113
 msgid "There is no changelog available."
-msgstr ""
+msgstr "Es steht kein Änderungsprotokoll zur Verfügung."
 
 #: search.php:14
 msgid "Search Results"
-msgstr ""
+msgstr "Suchergebnisse"
 
 #: search.php:107 search.php:109
 msgid "Read More &raquo;"
-msgstr ""
+msgstr "Weiterlesen &raquo;"
 
 #: single.php:63
 msgid "Posted By "
-msgstr ""
+msgstr "Veröffentlicht von "
 
 #: single.php:63
 msgid "In"
-msgstr ""
+msgstr "In"
 
 #: single.php:63
 msgid "Tagged with "
-msgstr ""
+msgstr "verschlagwortet mit "
 
 #. Theme Name of the plugin/theme
 msgid "FlexMarket"
@@ -1704,7 +1725,7 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blog Page"
-msgstr ""
+msgstr "Blog-Seite"
 
 #. Template Name of the plugin/theme
 msgid "Page (full width)"
